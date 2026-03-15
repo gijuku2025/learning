@@ -1,3 +1,4 @@
+
 const app = document.getElementById("app");
 const SUBJECT = "kanji"; // change to "geometry" or "civics" in other copies
 const SUBJECT_LABEL = SUBJECT.charAt(0).toUpperCase() + SUBJECT.slice(1);
@@ -35,6 +36,13 @@ let learningQueue = [];
 let reviewQueue = [];
 let current = null;
 let direction = null;
+let recentItems = [];
+const RECENT_LIMIT = 3;
+let errorQueue = [];
+let reviewingErrors = false;
+
+
+
 
 /* ================= STORAGE ================= */
 
@@ -137,7 +145,24 @@ async function loadKanji() {
 
 // ensure every kanji has a stable id
 data.forEach(item => {
-  if (!item.id) item.id = ch + "_" + item.kanji;
+
+  item.meaning = item.meaning || [];
+  item.onyomi = item.onyomi || [];
+  item.kunyomi = item.kunyomi || [];
+  item.vocab = item.vocab || [];
+
+  if (item.vocab) shuffle(item.vocab);
+
+
+  // support both "word" and "kanji"
+  if (!item.kanji && item.word) {
+    item.kanji = item.word;
+  }
+
+  if (!item.id) {
+    item.id = ch + "_" + item.kanji;
+  }
+
 });
 
 kanjiList = kanjiList.concat(data);
@@ -155,8 +180,10 @@ async function startStudy() {
   if (state.activeChapters.length===0) return alert("Select at least one chapter.");
   resetDailyCountIfNeeded();
   sessionStartTime = Date.now();
-  sessionCount = 0;
-  failedThisSession = new Set();
+sessionCount = 0;
+failedThisSession = new Set();
+errorQueue = [];
+reviewingErrors = false;
   state.stats = { correct: 0, wrong: 0, new: 0, review: 0 };
   await loadKanji();
   buildQueues();
@@ -206,19 +233,58 @@ function renderProgress() {
       <div class="progress-fill" style="width:${percent}%"></div>
     </div>
   `;
+		
+		
+		
 }
 
 
 
 function nextQuestion() {
-  if (sessionCount >= MAX_ITEMS_PER_SESSION) return showResults();
+  if (sessionCount >= MAX_ITEMS_PER_SESSION) {
+
+  if (!reviewingErrors && errorQueue.length) {
+
+    reviewingErrors = true;
+
+    app.innerHTML = `
+      <div class="center">
+        <div class="card">
+          <h2>Review Your Mistakes</h2>
+          <p>Let's retry the questions you missed.</p>
+          <button onclick="startErrorReview()">Start</button>
+        </div>
+      </div>
+    `;
+
+    return;
+
+  } else {
+    return showResults();
+  }
+
+}
   if (!reviewQueue.length && !learningQueue.length && !newQueue.length) return showResults();
 
   if (learningQueue.length) current = learningQueue.shift();
-  else if (reviewQueue.length) current = reviewQueue.shift();
-  else current = newQueue.shift();
+else if (reviewQueue.length) current = reviewQueue.shift();
+else current = newQueue.shift();
 
-  let types = ["meaning"];
+while (current && recentItems.includes(current.id)) {
+
+  if (learningQueue.length) current = learningQueue.shift();
+  else if (reviewQueue.length) current = reviewQueue.shift();
+  else if (newQueue.length) current = newQueue.shift();
+  else break;
+
+}
+
+if (!current) return showResults();
+
+recentItems.push(current.id);
+if (recentItems.length > RECENT_LIMIT) recentItems.shift();
+
+  let types = ["meaning","meaning","on","kun","on","kun"];
 
 if (current.onyomi && current.onyomi.length) {
   types.push("on");
@@ -228,7 +294,7 @@ if (current.kunyomi && current.kunyomi.length) {
   types.push("kun");
 }
 
-if (current.vocab && current.vocab.length) {
+if (Array.isArray(current.vocab) && current.vocab.length) {
   types.push("vocabMeaning");
 
   // only push reading if vocab has reading field
@@ -245,17 +311,17 @@ const type = types[Math.floor(Math.random() * types.length)];
   current.questionType = type;
 
   if (type === "meaning") {
-    prompt = current.kanji;
+    prompt = current.kanji || current.word || "";
     label = "Type the English meaning:";
   }
 
   if (type === "on") {
-    prompt = current.kanji;
+    prompt = current.kanji || current.word || "";
     label = "Type the ON reading (katakana):";
   }
 
   if (type === "kun") {
-    prompt = current.kanji;
+    prompt = current.kanji || current.word || "";
     label = "Type the KUN reading (hiragana):";
   }
 
@@ -264,14 +330,14 @@ const type = types[Math.floor(Math.random() * types.length)];
   if (type === "vocabMeaning" && current.vocab && current.vocab.length) {
   const v = current.vocab[Math.floor(Math.random() * current.vocab.length)];
   current.activeVocab = v;
-  prompt = v.word;
+  prompt = v.word || current.kanji || "";
   label = "Type the meaning:";
 }
 		
 	if (type === "vocabReading" && current.vocab && current.vocab.length) {
   const v = current.vocab[Math.floor(Math.random() * current.vocab.length)];
   current.activeVocab = v;
-  prompt = v.word;
+  prompt = v.word || current.kanji || "";
   label = "Type the reading (hiragana):";
 }	
 
@@ -291,6 +357,16 @@ const type = types[Math.floor(Math.random() * types.length)];
   `;
 }
 
+		
+function startErrorReview() {
+  learningQueue = [...errorQueue];
+  errorQueue = [];
+  sessionCount = 0;
+  nextQuestion();
+}
+		
+		
+		
 /* ================= CHECKING ================= */
 
 function normalizeJP(str) {
@@ -316,7 +392,11 @@ function levenshtein(a,b){
 }
 
 function submitAnswer() {
-  const input = document.getElementById("answer").value.trim().toLowerCase();
+  const input = document.getElementById("answer")
+  .value
+  .trim()
+  .toLowerCase()
+  .replace(/^to\s+/, "");
   let correct = false;
 
   if (current.questionType === "meaning") {
@@ -325,7 +405,7 @@ function submitAnswer() {
     : [current.meaning];
 
   correct = answers.some(m => {
-    const target = m.toLowerCase();
+    const target = String(m).toLowerCase().replace(/^an?\s+/, "");
     return input === target || levenshtein(input, target) <= 1;
   });
 }
@@ -346,7 +426,7 @@ else if (current.questionType === "vocabMeaning") {
     : [current.activeVocab.meaning];
 
   correct = meanings.some(m => {
-    const target = m.toLowerCase().trim();
+    const target = m.toLowerCase().trim().replace(/^an?\s+/, "");
     return input === target || levenshtein(input, target) <= 1;
   });
 }
@@ -354,22 +434,30 @@ else if (current.questionType === "vocabMeaning") {
 else if (current.questionType === "vocabReading") {
   const normalizedInput = normalizeJP(input);
 
-  const readings = Array.isArray(current.activeVocab.reading)
-    ? current.activeVocab.reading
-    : [current.activeVocab.reading];
+  const readings = current.activeVocab.reading
+    ? (Array.isArray(current.activeVocab.reading)
+        ? current.activeVocab.reading
+        : [current.activeVocab.reading])
+    : [];
 
-  correct = readings.some(r => normalizeJP(r) === normalizedInput);
+  correct = readings.length && readings.some(r => normalizeJP(r) === normalizedInput);
 }
   
 
   sessionCount++;
 
   if (!correct) {
-    state.stats.wrong++;
-    updateProgress("again");
-    showSimpleFeedback(false);
-    return;
+
+  state.stats.wrong++;
+
+  if (!errorQueue.includes(current)) {
+    errorQueue.push(current);
   }
+
+  updateProgress("again");
+  showSimpleFeedback(false);
+  return;
+}
 
   state.stats.correct++;
   updateProgress("good"); // automatic grading
@@ -532,17 +620,29 @@ function showSimpleFeedback(isCorrect) {
     current.questionType === "meaning"
       ? `${current.kanji} – ${Array.isArray(current.meaning) ? current.meaning.join(", ") : current.meaning}`
       : current.questionType === "on"
-      ? `${current.kanji} – ON: ${current.onyomi.join(", ")}`
+      ? `${current.kanji} – ON: ${(current.onyomi || []).join(", ")}`
       : current.questionType === "kun"
-      ? `${current.kanji} – KUN: ${current.kunyomi.join(", ")}`
+      ? `${current.kanji} – KUN: ${(current.kunyomi || []).join(", ")}`
       : current.questionType === "vocabMeaning"
-  ? `${current.activeVocab.word} – ${Array.isArray(current.activeVocab.meaning) ? current.activeVocab.meaning.join(", ") : current.activeVocab.meaning}`
+  ? `${current.activeVocab.word || current.kanji} – ${Array.isArray(current.activeVocab.meaning) ? current.activeVocab.meaning.join(", ") : current.activeVocab.meaning}`
 : current.questionType === "vocabReading"
-  ? `${current.activeVocab.word} – ${Array.isArray(current.activeVocab.reading) ? current.activeVocab.reading.join(", ") : current.activeVocab.reading}`
+  ? `${current.activeVocab.word || current.kanji} – ${Array.isArray(current.activeVocab.reading) ? current.activeVocab.reading.join(", ") : current.activeVocab.reading}`
       : ""
   }
 </div>
 
+	${current.kanji ? `
+<div style="margin-top:12px;">
+  <img 
+    src="https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${current.kanji.charCodeAt(0).toString(16).padStart(5,"0")}.svg"
+    style="height:120px; opacity:0.9;"
+  >
+</div>
+` : ""}	  
+		  
+		  
+		  
+		  
         <div style="margin:10px 0;">
           <div>Mastery:</div>
           <div>
