@@ -1,6 +1,6 @@
 [
   {
-    "word": "史",
+    "kanji": "史",
     "meaning": ["history", "chronicle"],
     "reading": ["シ"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "紀",
+    "kanji": "紀",
     "meaning": ["chronicle", "geological period"],
     "reading": ["キ"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "昔",
+    "kanji": "昔",
     "meaning": ["ancient times", "old days"],
     "reading": ["セキ", "シャク", "むかし"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "将",
+    "kanji": "将",
     "meaning": ["leader", "commander", "future"],
     "reading": ["ショウ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "過",
+    "kanji": "過",
     "meaning": ["overdo", "pass", "error"],
     "reading": ["カ", "すぎる", "あやまち"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "非",
+    "kanji": "非",
     "meaning": ["mistake", "negative", "non-"],
     "reading": ["ヒ", "あらず"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "必",
+    "kanji": "必",
     "meaning": ["necessary", "inevitable"],
     "reading": ["ヒツ", "かならず"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "要",
+    "kanji": "要",
     "meaning": ["need", "important", "pivot"],
     "reading": ["ヨウ", "いる"],
     "vocab": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "word": "適",
+    "kanji": "適",
     "meaning": ["suitable", "proper"],
     "reading": ["テキ"],
     "vocab": [
