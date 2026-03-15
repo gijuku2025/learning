@@ -1,0 +1,152 @@
+.word {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0 15px;
+}
+
+.example {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #eef5f8; /* calm light blue */
+  color: #1f2937;
+  margin: 0;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+#app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.prompt-label {
+  font-size: 0.95em;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.mastery-seg {
+  display: inline-block;
+  width: 26px;
+  height: 10px;
+  margin: 0 4px;
+  border-radius: 6px;
+  background: #cbd5e1;
+}
+
+.mastery-seg.filled {
+  background: #22c55e; /* growth green */
+}
+
+.answer-input {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 70%;
+  max-width: 320px;
+}
+
+.feedback-title {
+  font-size: 1.6em;
+  margin-bottom: 10px;
+}
+
+.feedback-word {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+.heading {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.center { 
+  text-align: center; 
+}
+
+button, input {
+  font-size: 1.1em;
+  padding: 14px 22px;
+  border-radius: 999px;
+  border: 2px solid #cbd5e1;
+}
+
+button {
+  background: #2563eb; /* calm blue */
+  color: white;
+  font-weight: bold;
+  font-size: 1.15em;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.15);
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.card {
+  background: #ffffff;
+  color: #1f2937;
+  padding: 16px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 10px auto;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 8px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.chapter-tile {
+  background: #ffffff;
+  color: #1f2937;
+  padding: 8px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  border: 2px solid #cbd5e1;
+  font-size: 0.9em;
+}
+
+.chapter-tile.selected {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.correct {
+  color: #16a34a; /* green */
+  font-weight: 700;
+}
+
+.partial {
+  color: #f59e0b; /* orange */
+  font-weight: 700;
+}
+
+.incorrect {
+  color: #dc2626; /* red */
+  font-weight: 700;
+}
