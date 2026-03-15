@@ -1,6 +1,6 @@
 [
   {
-    "word": "変",
+    "kanji": "変",
     "meaning": ["change", "strange"],
     "reading": ["ヘン", "かわる"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "化",
+    "kanji": "化",
     "meaning": ["change", "transform"],
     "reading": ["カ", "ケ", "ばける"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "続",
+    "kanji": "続",
     "meaning": ["continue"],
     "reading": ["ゾク", "つづく"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "対",
+    "kanji": "対",
     "meaning": ["opposite", "against"],
     "reading": ["タイ", "ツイ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "関",
+    "kanji": "関",
     "meaning": ["relation", "concern"],
     "reading": ["カン", "かかわる"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "係",
+    "kanji": "係",
     "meaning": ["connection", "in charge"],
     "reading": ["ケイ", "かかり"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "比",
+    "kanji": "比",
     "meaning": ["compare"],
     "reading": ["ヒ", "くらべる"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "合",
+    "kanji": "合",
     "meaning": ["fit", "join"],
     "reading": ["ゴウ", "ガッ", "あう"],
     "vocab": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "word": "違",
+    "kanji": "違",
     "meaning": ["differ", "wrong"],
     "reading": ["イ", "ちがう"],
     "vocab": [
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "word": "反",
+    "kanji": "反",
     "meaning": ["oppose", "anti"],
     "reading": ["ハン", "そる"],
     "vocab": [
