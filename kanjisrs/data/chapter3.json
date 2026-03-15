@@ -1,0 +1,102 @@
+[
+  {
+    "word": "権",
+    "meaning": ["authority", "rights", "power"],
+    "reading": ["ケン"],
+    "vocab": [
+      { "word": "人権", "reading": "じんけん", "meaning": "human rights" },
+      { "word": "権利", "reading": "けんり", "meaning": "rights" },
+      { "word": "主権", "reading": "しゅけん", "meaning": "sovereignty" }
+    ]
+  },
+  {
+    "word": "義",
+    "meaning": ["justice", "duty", "meaning"],
+    "reading": ["ギ"],
+    "vocab": [
+      { "word": "義務", "reading": "ぎむ", "meaning": "duty" },
+      { "word": "正義", "reading": "せいぎ", "meaning": "justice" },
+      { "word": "定義", "reading": "ていぎ", "meaning": "definition" }
+    ]
+  },
+  {
+    "word": "情",
+    "meaning": ["feeling", "emotion", "situation"],
+    "reading": ["ジョウ", "なさけ"],
+    "vocab": [
+      { "word": "事情", "reading": "じじょう", "meaning": "circumstances" },
+      { "word": "情熱", "reading": "じょうねつ", "meaning": "passion" },
+      { "word": "友情", "reading": "ゆうじょう", "meaning": "friendship" }
+    ]
+  },
+  {
+    "word": "報",
+    "meaning": ["report", "inform"],
+    "reading": ["ホウ", "むくいる"],
+    "vocab": [
+      { "word": "報告", "reading": "ほうこく", "meaning": "report" },
+      { "word": "報道", "reading": "ほうどう", "meaning": "news reporting" },
+      { "word": "速報", "reading": "そくほう", "meaning": "breaking news" }
+    ]
+  },
+  {
+    "word": "想",
+    "meaning": ["idea", "thought"],
+    "reading": ["ソウ", "ソ", "おもう"],
+    "vocab": [
+      { "word": "想像", "reading": "そうぞう", "meaning": "imagination" },
+      { "word": "予想", "reading": "よそう", "meaning": "prediction" },
+      { "word": "思想", "reading": "しそう", "meaning": "ideology" }
+    ]
+  },
+  {
+    "word": "感",
+    "meaning": ["feeling", "sense"],
+    "reading": ["カン"],
+    "vocab": [
+      { "word": "感覚", "reading": "かんかく", "meaning": "sense" },
+      { "word": "感謝", "reading": "かんしゃ", "meaning": "gratitude" },
+      { "word": "共感", "reading": "きょうかん", "meaning": "empathy" }
+    ]
+  },
+  {
+    "word": "決",
+    "meaning": ["decide"],
+    "reading": ["ケツ", "きめる"],
+    "vocab": [
+      { "word": "解決", "reading": "かいけつ", "meaning": "solution" },
+      { "word": "決心", "reading": "けっしん", "meaning": "determination" },
+      { "word": "決勝", "reading": "けっしょう", "meaning": "final match" }
+    ]
+  },
+  {
+    "word": "定",
+    "meaning": ["decide", "fix"],
+    "reading": ["テイ", "ジョウ", "さだめる"],
+    "vocab": [
+      { "word": "定期", "reading": "ていき", "meaning": "regular / periodic" },
+      { "word": "定年", "reading": "ていねん", "meaning": "retirement age" },
+      { "word": "定数", "reading": "ていすう", "meaning": "fixed number" }
+    ]
+  },
+  {
+    "word": "増",
+    "meaning": ["increase"],
+    "reading": ["ゾウ", "ふえる"],
+    "vocab": [
+      { "word": "増加", "reading": "ぞうか", "meaning": "increase" },
+      { "word": "急増", "reading": "きゅうぞう", "meaning": "rapid increase" },
+      { "word": "増大", "reading": "ぞうだい", "meaning": "growth / expansion" }
+    ]
+  },
+  {
+    "word": "減",
+    "meaning": ["decrease"],
+    "reading": ["ゲン", "へる"],
+    "vocab": [
+      { "word": "減少", "reading": "げんしょう", "meaning": "decrease" },
+      { "word": "削減", "reading": "さくげん", "meaning": "reduction" },
+      { "word": "半減", "reading": "はんげん", "meaning": "halve / reduce by half" }
+    ]
+  }
+]
