@@ -1,0 +1,52 @@
+[
+  {
+    "word": "機",
+    "meaning": ["Machine", "opportunity"],
+    "reading": ["キ", "はた"]
+  },
+  {
+    "word": "器",
+    "meaning": ["Tool", "container"],
+    "reading": ["キ", "うつわ"]
+  },
+  {
+    "word": "材",
+    "meaning": ["Material"],
+    "reading": ["ザイ"]
+  },
+  {
+    "word": "料",
+    "meaning": ["Material", "fee"],
+    "reading": ["リョウ"]
+  },
+  {
+    "word": "製",
+    "meaning": ["Manufacture"],
+    "reading": ["セイ"]
+  },
+  {
+    "word": "限",
+    "meaning": ["Limit"],
+    "reading": ["ゲン", "かぎ(る)"]
+  },
+  {
+    "word": "程",
+    "meaning": ["Degree", "extent"],
+    "reading": ["テイ", "ほど"]
+  },
+  {
+    "word": "率",
+    "meaning": ["Rate", "ratio"],
+    "reading": ["リツ", "ソツ", "ひき(いる)"]
+  },
+  {
+    "word": "例",
+    "meaning": ["Example"],
+    "reading": ["レイ", "たと(える)"]
+  },
+  {
+    "word": "況",
+    "meaning": ["Condition", "situation"],
+    "reading": ["キョウ"]
+  }
+]
