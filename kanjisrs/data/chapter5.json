@@ -1,6 +1,6 @@
 [
   {
-    "word": "賛",
+    "kanji": "賛",
     "meaning": ["approve", "agree"],
     "reading": ["サン"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "質",
+    "kanji": "質",
     "meaning": ["quality", "matter"],
     "reading": ["シツ"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "量",
+    "kanji": "量",
     "meaning": ["amount"],
     "reading": ["リョウ", "はかる"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "価",
+    "kanji": "価",
     "meaning": ["value", "price"],
     "reading": ["カ", "あたい"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "格",
+    "kanji": "格",
     "meaning": ["status", "standard"],
     "reading": ["カク"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "費",
+    "kanji": "費",
     "meaning": ["expense", "cost"],
     "reading": ["ヒ", "ついやす"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "資",
+    "kanji": "資",
     "meaning": ["resources", "capital"],
     "reading": ["シ"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "源",
+    "kanji": "源",
     "meaning": ["source", "origin"],
     "reading": ["ゲン", "みなもと"],
     "vocab": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "word": "税",
+    "kanji": "税",
     "meaning": ["tax"],
     "reading": ["ゼイ"],
     "vocab": [
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "word": "設",
+    "kanji": "設",
     "meaning": ["establish"],
     "reading": ["セツ", "もうける"],
     "vocab": [
