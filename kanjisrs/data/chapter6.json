@@ -1,6 +1,6 @@
 [
   {
-    "word": "備",
+    "kanji": "備",
     "meaning": ["prepare", "equip"],
     "reading": ["ビ", "そなえる"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "整",
+    "kanji": "整",
     "meaning": ["arrange", "organize"],
     "reading": ["セイ", "ととのえる"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "管",
+    "kanji": "管",
     "meaning": ["manage", "pipe"],
     "reading": ["カン", "くだ"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "営",
+    "kanji": "営",
     "meaning": ["operate", "camp"],
     "reading": ["エイ", "いとなむ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "職",
+    "kanji": "職",
     "meaning": ["job", "occupation"],
     "reading": ["ショク"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "技",
+    "kanji": "技",
     "meaning": ["skill", "technique"],
     "reading": ["ギ", "わざ"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "術",
+    "kanji": "術",
     "meaning": ["method", "technique"],
     "reading": ["ジュツ", "すべ"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "能",
+    "kanji": "能",
     "meaning": ["ability"],
     "reading": ["ノウ"],
     "vocab": [
