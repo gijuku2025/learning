@@ -1,0 +1,58 @@
+[
+  {
+    "kanji": "政",
+    "meaning": ["government", "politics"],
+    "onyomi": ["セイ"],
+    "kunyomi": ["まつりごと"]
+  },
+  {
+    "kanji": "治",
+    "meaning": ["govern", "rule", "cure"],
+    "onyomi": ["ジ", "チ"],
+    "kunyomi": ["おさめる", "なおる"]
+  },
+  {
+    "kanji": "経",
+    "meaning": ["manage", "pass through", "economy"],
+    "onyomi": ["ケイ", "キョウ"],
+    "kunyomi": ["へる"]
+  },
+  {
+    "kanji": "済",
+    "meaning": ["settle", "finish", "economy"],
+    "onyomi": ["サイ", "セイ"],
+    "kunyomi": ["すむ"]
+  },
+  {
+    "kanji": "法",
+    "meaning": ["law", "method"],
+    "onyomi": ["ホウ"]
+  },
+  {
+    "kanji": "律",
+    "meaning": ["law", "regulation"],
+    "onyomi": ["リツ"]
+  },
+  {
+    "kanji": "議",
+    "meaning": ["discussion", "deliberation"],
+    "onyomi": ["ギ"]
+  },
+  {
+    "kanji": "員",
+    "meaning": ["member"],
+    "onyomi": ["イン"]
+  },
+  {
+    "kanji": "選",
+    "meaning": ["choose", "elect"],
+    "onyomi": ["セン"],
+    "kunyomi": ["えらぶ"]
+  },
+  {
+    "kanji": "挙",
+    "meaning": ["raise", "election"],
+    "onyomi": ["キョ"],
+    "kunyomi": ["あげる"]
+  }
+]
