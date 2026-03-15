@@ -1,6 +1,6 @@
 [
   {
-    "word": "政",
+    "kanji": "政",
     "meaning": ["government", "politics"],
     "reading": ["セイ", "まつりごと"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "治",
+    "kanji": "治",
     "meaning": ["govern", "rule", "cure"],
     "reading": ["ジ", "チ", "おさめる", "なおる"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "経",
+    "kanji": "経",
     "meaning": ["manage", "pass through", "economy"],
     "reading": ["ケイ", "キョウ", "へる"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "済",
+    "kanji": "済",
     "meaning": ["settle", "finish", "economy"],
     "reading": ["サイ", "セイ", "すむ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "法",
+    "kanji": "法",
     "meaning": ["law", "method"],
     "reading": ["ホウ"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "律",
+    "kanji": "律",
     "meaning": ["law", "regulation"],
     "reading": ["リツ"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "議",
+    "kanji": "議",
     "meaning": ["discussion", "deliberation"],
     "reading": ["ギ"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "員",
+    "kanji": "員",
     "meaning": ["member"],
     "reading": ["イン"],
     "vocab": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "word": "選",
+    "kanji": "選",
     "meaning": ["choose", "elect"],
     "reading": ["セン", "えらぶ"],
     "vocab": [
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "word": "挙",
+    "kanji": "挙",
     "meaning": ["raise", "election"],
     "reading": ["キョ", "あげる"],
     "vocab": [
