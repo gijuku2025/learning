@@ -1,0 +1,102 @@
+[
+  {
+    "word": "賛",
+    "meaning": ["approve", "agree"],
+    "reading": ["サン"],
+    "vocab": [
+      { "word": "賛成", "reading": "さんせい", "meaning": "agreement / approval" },
+      { "word": "賛同", "reading": "さんどう", "meaning": "support / agreement" },
+      { "word": "称賛", "reading": "しょうさん", "meaning": "praise" }
+    ]
+  },
+  {
+    "word": "質",
+    "meaning": ["quality", "matter"],
+    "reading": ["シツ"],
+    "vocab": [
+      { "word": "品質", "reading": "ひんしつ", "meaning": "quality" },
+      { "word": "物質", "reading": "ぶっしつ", "meaning": "substance" },
+      { "word": "本質", "reading": "ほんしつ", "meaning": "essence" }
+    ]
+  },
+  {
+    "word": "量",
+    "meaning": ["amount"],
+    "reading": ["リョウ", "はかる"],
+    "vocab": [
+      { "word": "数量", "reading": "すうりょう", "meaning": "quantity" },
+      { "word": "重量", "reading": "じゅうりょう", "meaning": "weight" },
+      { "word": "大量", "reading": "たいりょう", "meaning": "large quantity" }
+    ]
+  },
+  {
+    "word": "価",
+    "meaning": ["value", "price"],
+    "reading": ["カ", "あたい"],
+    "vocab": [
+      { "word": "価値", "reading": "かち", "meaning": "value" },
+      { "word": "価格", "reading": "かかく", "meaning": "price" },
+      { "word": "評価", "reading": "ひょうか", "meaning": "evaluation" }
+    ]
+  },
+  {
+    "word": "格",
+    "meaning": ["status", "standard"],
+    "reading": ["カク"],
+    "vocab": [
+      { "word": "価格", "reading": "かかく", "meaning": "price" },
+      { "word": "資格", "reading": "しかく", "meaning": "qualification" },
+      { "word": "格差", "reading": "かくさ", "meaning": "gap / disparity" }
+    ]
+  },
+  {
+    "word": "費",
+    "meaning": ["expense", "cost"],
+    "reading": ["ヒ", "ついやす"],
+    "vocab": [
+      { "word": "費用", "reading": "ひよう", "meaning": "expense" },
+      { "word": "消費", "reading": "しょうひ", "meaning": "consumption" },
+      { "word": "学費", "reading": "がくひ", "meaning": "tuition" }
+    ]
+  },
+  {
+    "word": "資",
+    "meaning": ["resources", "capital"],
+    "reading": ["シ"],
+    "vocab": [
+      { "word": "資源", "reading": "しげん", "meaning": "resources" },
+      { "word": "資金", "reading": "しきん", "meaning": "funds" },
+      { "word": "投資", "reading": "とうし", "meaning": "investment" }
+    ]
+  },
+  {
+    "word": "源",
+    "meaning": ["source", "origin"],
+    "reading": ["ゲン", "みなもと"],
+    "vocab": [
+      { "word": "資源", "reading": "しげん", "meaning": "resources" },
+      { "word": "電源", "reading": "でんげん", "meaning": "power source" },
+      { "word": "水源", "reading": "すいげん", "meaning": "water source" }
+    ]
+  },
+  {
+    "word": "税",
+    "meaning": ["tax"],
+    "reading": ["ゼイ"],
+    "vocab": [
+      { "word": "税金", "reading": "ぜいきん", "meaning": "tax" },
+      { "word": "所得税", "reading": "しょとくぜい", "meaning": "income tax" },
+      { "word": "課税", "reading": "かぜい", "meaning": "taxation" }
+    ]
+  },
+  {
+    "word": "設",
+    "meaning": ["establish"],
+    "reading": ["セツ", "もうける"],
+    "vocab": [
+      { "word": "設立", "reading": "せつりつ", "meaning": "establishment" },
+      { "word": "設備", "reading": "せつび", "meaning": "facilities" },
+      { "word": "建設", "reading": "けんせつ", "meaning": "construction" }
+    ]
+  }
+]
