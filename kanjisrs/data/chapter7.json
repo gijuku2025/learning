@@ -1,6 +1,6 @@
 [
   {
-    "word": "機",
+    "kanji": "機",
     "meaning": ["machine", "opportunity"],
     "reading": ["キ", "はた"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "器",
+    "kanji": "器",
     "meaning": ["tool", "container"],
     "reading": ["キ", "うつわ"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "材",
+    "kanji": "材",
     "meaning": ["material"],
     "reading": ["ザイ"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "製",
+    "kanji": "製",
     "meaning": ["manufacture"],
     "reading": ["セイ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "限",
+    "kanji": "限",
     "meaning": ["limit"],
     "reading": ["ゲン", "かぎる"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "程",
+    "kanji": "程",
     "meaning": ["degree", "extent"],
     "reading": ["テイ", "ほど"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "率",
+    "kanji": "率",
     "meaning": ["rate", "ratio"],
     "reading": ["リツ", "ソツ", "ひきいる"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "例",
+    "kanji": "例",
     "meaning": ["example"],
     "reading": ["レイ", "たとえる"],
     "vocab": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "word": "況",
+    "kanji": "況",
     "meaning": ["condition", "situation"],
     "reading": ["キョウ"],
     "vocab": [
