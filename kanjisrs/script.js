@@ -1,4 +1,5 @@
 
+
 const app = document.getElementById("app");
 const SUBJECT = "kanji"; // change to "geometry" or "civics" in other copies
 const SUBJECT_LABEL = SUBJECT.charAt(0).toUpperCase() + SUBJECT.slice(1);
@@ -37,6 +38,7 @@ let reviewQueue = [];
 let current = null;
 let direction = null;
 let recentItems = [];
+let recentTypes = [];
 const RECENT_LIMIT = 3;
 let errorQueue = [];
 let reviewingErrors = false;
@@ -151,8 +153,17 @@ data.forEach(item => {
   item.kunyomi = item.kunyomi || [];
   item.vocab = item.vocab || [];
 
-  if (item.vocab) shuffle(item.vocab);
+  // AUTO-CONVERT "reading" → onyomi / kunyomi
+  if (item.reading && !item.onyomi.length && !item.kunyomi.length) {
+    item.onyomi = item.reading.filter(r => /[ァ-ン]/.test(r));
+    item.kunyomi = item.reading.filter(r => /[ぁ-ん]/.test(r));
+    delete item.reading;
+  }
 
+  if (item.vocab && item.vocab.length) {
+  shuffle(item.vocab);
+  item.vocabIndex = 0;
+}
 
   // support both "word" and "kanji"
   if (!item.kanji && item.word) {
@@ -200,8 +211,8 @@ function buildQueues() {
     let p = state.progress[item.id];
 
     if (!p && state.todayNewCount < MAX_NEW_PER_DAY) {
-      newQueue.push(item);
-    } 
+  newQueue.push(item);
+} 
     else if (p && now >= p.nextReview) {
   if (p.status === "learning") {
     learningQueue.push(item);
@@ -217,11 +228,13 @@ function buildQueues() {
   shuffle(newQueue);
   shuffle(learningQueue);
   shuffle(reviewQueue);
+		
+  save();	
 }
 
 
 function renderProgress() {
-  const currentNum = sessionCount + 1;
+  const currentNum = sessionCount;
   const total = MAX_ITEMS_PER_SESSION;
   const percent = Math.min((sessionCount / total) * 100, 100);
 
@@ -270,45 +283,57 @@ function nextQuestion() {
 else if (reviewQueue.length) current = reviewQueue.shift();
 else current = newQueue.shift();
 
-while (current && recentItems.includes(current.id)) {
+let typeAttempts = 0;
+let type;
+
+do {
 
   if (learningQueue.length) current = learningQueue.shift();
   else if (reviewQueue.length) current = reviewQueue.shift();
   else if (newQueue.length) current = newQueue.shift();
   else break;
 
-}
+  const types = ["meaning","meaning","on","kun","on","kun"];
+
+  if (current.onyomi && current.onyomi.length) types.push("on");
+  if (current.kunyomi && current.kunyomi.length) types.push("kun");
+
+  if (Array.isArray(current.vocab) && current.vocab.length) {
+    types.push("vocabMeaning");
+    if (current.vocab.some(v => v.reading && v.reading.length)) {
+      types.push("vocabReading");
+    }
+  }
+
+  type = types[Math.floor(Math.random() * types.length)];
+
+  typeAttempts++;
+
+} while (
+  typeAttempts < 10 &&
+  recentItems.includes(current.id) &&
+  recentTypes.includes(type)
+);
+
+current.questionType = type;
 
 if (!current) return showResults();
 
-recentItems.push(current.id);
-if (recentItems.length > RECENT_LIMIT) recentItems.shift();
 
-  let types = ["meaning","meaning","on","kun","on","kun"];
 
-if (current.onyomi && current.onyomi.length) {
-  types.push("on");
-}
-
-if (current.kunyomi && current.kunyomi.length) {
-  types.push("kun");
-}
-
-if (Array.isArray(current.vocab) && current.vocab.length) {
-  types.push("vocabMeaning");
-
-  // only push reading if vocab has reading field
-  if (current.vocab.some(v => v.reading && v.reading.length)) {
-    types.push("vocabReading");
-  }
-}
-
-const type = types[Math.floor(Math.random() * types.length)];
  
 
   let prompt = "";
   let label = "";
-  current.questionType = type;
+  
+
+recentItems.push(current.id);
+recentTypes.push(type);
+
+if (recentItems.length > RECENT_LIMIT) {
+  recentItems.shift();
+  recentTypes.shift();
+}
 
   if (type === "meaning") {
     prompt = current.kanji || current.word || "";
@@ -328,15 +353,25 @@ const type = types[Math.floor(Math.random() * types.length)];
   
 
   if (type === "vocabMeaning" && current.vocab && current.vocab.length) {
-  const v = current.vocab[Math.floor(Math.random() * current.vocab.length)];
-  current.activeVocab = v;
+  if (!current.vocabPool || current.vocabPool.length === 0) {
+  current.vocabPool = [...current.vocab];
+  shuffle(current.vocabPool);
+}
+
+const v = current.vocabPool.pop();
+current.activeVocab = v;
   prompt = v.word || current.kanji || "";
   label = "Type the meaning:";
 }
 		
 	if (type === "vocabReading" && current.vocab && current.vocab.length) {
-  const v = current.vocab[Math.floor(Math.random() * current.vocab.length)];
-  current.activeVocab = v;
+  if (!current.vocabPool || current.vocabPool.length === 0) {
+  current.vocabPool = [...current.vocab];
+  shuffle(current.vocabPool);
+}
+
+const v = current.vocabPool.pop();
+current.activeVocab = v;
   prompt = v.word || current.kanji || "";
   label = "Type the reading (hiragana):";
 }	
@@ -482,6 +517,8 @@ function updateProgress(grade) {
   let p = state.progress[current.id];
 
   if (!p) {
+
+  state.todayNewCount++;
     p = {
       status:"learning",
       interval:1,
@@ -496,7 +533,7 @@ function updateProgress(grade) {
     };
     state.progress[current.id]=p;
     state.stats.new++;
-    state.todayNewCount++;
+    
   } else {
     state.stats.review++;
   }
@@ -514,7 +551,7 @@ function updateProgress(grade) {
   }
 
   // stronger ease penalty based on lapse history
-  p.ease = Math.max(1.3, p.ease - 0.2 - (p.lapses * 0.05));
+  p.ease = Math.max(1.35, p.ease - 0.25 - (p.lapses * 0.04));
 
   
 
@@ -538,20 +575,32 @@ function updateProgress(grade) {
   }
 
   if (grade === "good") {
-    p.streak++;
-    p.totalCorrect++;
+  p.streak++;
+  p.totalCorrect++;
+
+  if (p.interval < 2) {
+    p.interval = 2;
+  } else if (p.interval < 7) {
+    p.interval = Math.round(p.interval * 1.8);
+  } else {
     p.interval = Math.round(p.interval * p.ease);
-    p.ease = Math.min(p.ease + 0.1, 3);
-    
   }
 
+  p.ease = Math.min(p.ease + 0.08, 2.8);
+}
+
   if (grade === "easy") {
-    p.streak += 2;
-    p.totalCorrect++;
-    p.interval = Math.round(p.interval * p.ease * 1.3);
-    p.ease = Math.min(p.ease + 0.15, 3);
-    
+  p.streak += 2;
+  p.totalCorrect++;
+
+  if (p.interval < 3) {
+    p.interval = 4;
+  } else {
+    p.interval = Math.round(p.interval * p.ease * 1.25);
   }
+
+  p.ease = Math.min(p.ease + 0.12, 2.8);
+}
 
   if (p.streak >= REQUIRED_STREAK && p.interval >= MASTERY_INTERVAL) {
     p.mastered = true;
