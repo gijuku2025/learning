@@ -1,6 +1,6 @@
 [
   {
-    "word": "段",
+    "kanji": "段",
     "meaning": ["step", "stage"],
     "reading": ["ダン"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "論",
+    "kanji": "論",
     "meaning": ["theory", "argument"],
     "reading": ["ロン"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "説",
+    "kanji": "説",
     "meaning": ["explanation", "opinion"],
     "reading": ["セツ", "とく"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "談",
+    "kanji": "談",
     "meaning": ["talk", "discussion"],
     "reading": ["ダン"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "題",
+    "kanji": "題",
     "meaning": ["topic", "title"],
     "reading": ["ダイ"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "示",
+    "kanji": "示",
     "meaning": ["show"],
     "reading": ["ジ", "しめす"],
     "vocab": [
