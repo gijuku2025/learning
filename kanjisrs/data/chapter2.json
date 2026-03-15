@@ -1,6 +1,6 @@
 [
   {
-    "word": "判",
+    "kanji": "判",
     "meaning": ["judgment", "signature", "stamp"],
     "reading": ["ハン", "バン", "わかる"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "決",
+    "kanji": "決",
     "meaning": ["decide", "determine"],
     "reading": ["ケツ", "きめる", "きまる"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "定",
+    "kanji": "定",
     "meaning": ["determine", "fix", "establish"],
     "reading": ["テイ", "ジョウ", "さだめる", "さだまる"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "制",
+    "kanji": "制",
     "meaning": ["system", "control", "rule"],
     "reading": ["セイ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "度",
+    "kanji": "度",
     "meaning": ["degree", "time", "occurrence"],
     "reading": ["ド", "ト", "タク", "たび"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "務",
+    "kanji": "務",
     "meaning": ["task", "duty", "work"],
     "reading": ["ム", "つとめる"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "局",
+    "kanji": "局",
     "meaning": ["bureau", "office", "department"],
     "reading": ["キョク"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "任",
+    "kanji": "任",
     "meaning": ["responsibility", "duty", "entrust"],
     "reading": ["ニン", "まかせる", "まかす"],
     "vocab": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "word": "信",
+    "kanji": "信",
     "meaning": ["trust", "believe", "message"],
     "reading": ["シン"],
     "vocab": [
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "word": "認",
+    "kanji": "認",
     "meaning": ["acknowledge", "witness", "recognize"],
     "reading": ["ニン", "みとめる"],
     "vocab": [
