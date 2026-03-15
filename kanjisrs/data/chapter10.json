@@ -1,6 +1,6 @@
 [
   {
-    "word": "護",
+    "kanji": "護",
     "meaning": ["defend"],
     "reading": ["ゴ"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "犯",
+    "kanji": "犯",
     "meaning": ["crime", "commit"],
     "reading": ["ハン", "おかす"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "罪",
+    "kanji": "罪",
     "meaning": ["crime", "guilt"],
     "reading": ["ザイ", "つみ"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "罰",
+    "kanji": "罰",
     "meaning": ["punishment"],
     "reading": ["バツ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "環",
+    "kanji": "環",
     "meaning": ["environment", "ring"],
     "reading": ["カン"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "境",
+    "kanji": "境",
     "meaning": ["boundary", "environment"],
     "reading": ["キョウ", "さかい"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "存",
+    "kanji": "存",
     "meaning": ["exist"],
     "reading": ["ソン", "ゾン"],
     "vocab": [
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "word": "維",
+    "kanji": "維",
     "meaning": ["maintain"],
     "reading": ["イ"],
     "vocab": [
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "word": "歴",
+    "kanji": "歴",
     "meaning": ["history"],
     "reading": ["レキ"],
     "vocab": [
