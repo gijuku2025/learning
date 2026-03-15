@@ -1,6 +1,6 @@
 [
   {
-    "word": "査",
+    "kanji": "査",
     "meaning": ["inspect"],
     "reading": ["サ"],
     "vocab": [
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "word": "確",
+    "kanji": "確",
     "meaning": ["certain"],
     "reading": ["カク", "たしか"],
     "vocab": [
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "word": "断",
+    "kanji": "断",
     "meaning": ["decide", "cut off"],
     "reading": ["ダン", "ことわる"],
     "vocab": [
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "word": "可",
+    "kanji": "可",
     "meaning": ["possible"],
     "reading": ["カ"],
     "vocab": [
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "word": "否",
+    "kanji": "否",
     "meaning": ["no", "reject"],
     "reading": ["ヒ", "いな"],
     "vocab": [
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "word": "危",
+    "kanji": "危",
     "meaning": ["dangerous"],
     "reading": ["キ", "あぶない"],
     "vocab": [
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "word": "険",
+    "kanji": "険",
     "meaning": ["steep", "dangerous"],
     "reading": ["ケン", "けわしい"],
     "vocab": [
