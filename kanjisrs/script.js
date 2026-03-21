@@ -98,7 +98,7 @@ function setNickname() {
 function showChapterScreen() {
   let html = `
     <div class="center">
-     <div class="card compact-card">
+    <div class="chapter-card">
         <h2 class="heading">Welcome to Smart Review, ${state.nickname}</h2>
       <h2 class="heading">${SUBJECT_LABEL}</h2>   
        <p style="margin:5px 0;">Select chapters</p>
