@@ -19,17 +19,20 @@ body {
   background: #eef5f8;
   color: #1f2937;
   margin: 0;
-
   min-height: 100vh;
+
+  display: flex;
+  justify-content: center;   /* 🔥 ADD THIS */
+  align-items: center;
 }
 
 #app {
   width: 100%;
   max-width: 430px;
 
-  margin: 0 auto;   /* 🔥 THIS alone centers everything */
+  margin: auto;
 
-  padding: 0 16px;
+  padding: 0; /* 🔥 remove padding completely */
 }
 
 
@@ -113,13 +116,14 @@ input:focus {
   width: 100%;
   max-width: 360px; /* 🔥 slightly smaller = better symmetry */
 
- margin: 40px auto; 
+ margin: 20px auto; 
 
   display: flex;
   flex-direction: column;
   gap: 16px;
 
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 20px 16px;
 }
 
 .chapter-grid {
@@ -194,7 +198,7 @@ html, body {
   width: 100%;
   max-width: 340px;
 
-  padding: 20px;
+  padding: 20px 16px;
   border-radius: 20px;
 
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
@@ -204,7 +208,7 @@ html, body {
   align-items: center;
 
   gap: 12px;
-  margin: 40px auto; 
+  margin: 20px auto;
 }
 
 .chapter-card h2 {
