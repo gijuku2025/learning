@@ -23,7 +23,8 @@ body {
 
   display: flex;
   justify-content: center;   /* 🔥 ADD THIS */
-  align-items: center;
+  align-items: flex-start;
+  padding-top: 40px;    
 }
 
 #app {
@@ -110,7 +111,7 @@ input:focus {
 .card {
   background: #ffffff;
   color: #1f2937;
-  padding: 20px;
+  padding: 16px 20px;
   border-radius: 20px;
 
   width: 100%;
@@ -123,7 +124,7 @@ input:focus {
   gap: 16px;
 
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  padding: 20px 16px;
+  
 }
 
 .chapter-grid {
@@ -131,7 +132,7 @@ input:focus {
   grid-template-columns: repeat(5, 1fr); /* 🔥 was 8 */
   gap: 10px;
   max-width: 260px;  /* 🔥 tighter */
-  margin: 20px auto;
+  margin: 8px auto 12px;
 }
 
 .chapter-tile {
