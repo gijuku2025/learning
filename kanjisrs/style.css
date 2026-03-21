@@ -30,7 +30,8 @@ body {
 #app {
   width: 100%;
   max-width: 430px; /* iPhone width */
-  padding: 12px;
+  padding-left: max(12px, env(safe-area-inset-left));
+  padding-right: max(12px, env(safe-area-inset-right));  
 }
 
 .prompt-label {
