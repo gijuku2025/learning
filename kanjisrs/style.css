@@ -30,11 +30,10 @@ body {
 #app {
   width: 100%;
   max-width: 430px;
+  margin: 0 auto;
 
-  margin: 0 auto; /* 🔥 THIS fixes the visual centering */
-
-  padding-left: 12px;
-  padding-right: 12px;
+  padding-left: calc(12px + env(safe-area-inset-left));
+  padding-right: calc(12px + env(safe-area-inset-right));
 }
 
 .prompt-label {
