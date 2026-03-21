@@ -20,20 +20,29 @@ body {
   color: #1f2937;
   margin: 0;
 
-  display: flex;
-  justify-content: center;  /* 🔥 ADD THIS */
-  align-items: center;
-
   min-height: 100vh;
 }
 
 #app {
   width: 100%;
   max-width: 430px;
+
   margin: 0 auto;
 
-  padding-left: calc(12px + env(safe-area-inset-left));
-  padding-right: calc(12px + env(safe-area-inset-right));
+  padding-left: 12px;
+  padding-right: 12px;
+
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 🔥 THIS is the missing piece */
+}
+
+  margin: 0 auto; /* 🔥 single source of truth */
+
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .prompt-label {
@@ -115,7 +124,9 @@ input:focus {
   width: 100%;
   height: 75vh;              /* 🔥 fixed visual height */
   max-height: 700px;         /* prevents huge screens stretching */
+  margin: 0 auto;
 
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
