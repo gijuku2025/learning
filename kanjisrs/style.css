@@ -21,15 +21,15 @@ body {
   margin: 0;
 
   display: flex;
-  justify-content: center;
+  justify-content: center;  /* 🔥 ADD THIS */
   align-items: center;
 
   min-height: 100vh;
 }
+
 #app {
   width: 100%;
-  max-width: 430px; /* iPhone 16 Plus width */
-  margin: auto;
+  max-width: 430px; /* iPhone width */
   padding: 12px;
 }
 
@@ -168,4 +168,9 @@ input:focus {
   font-size: 1.1em;
   margin-top: 10px;
   min-height: 80px; /* 🔥 keeps size stable */
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
 }
