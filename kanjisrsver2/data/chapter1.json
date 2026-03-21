@@ -1,0 +1,103 @@
+
+[
+  {
+    "kanji": "政",
+    "meaning": ["government", "politics"],
+    "reading": ["セイ", "まつりごと"],
+    "vocab": [
+      { "word": "政治", "reading": "せいじ", "meaning": "politics" },
+      { "word": "行政", "reading": "ぎょうせい", "meaning": "administration" },
+      { "word": "政党", "reading": "せいとう", "meaning": "political party" }
+    ]
+  },
+  {
+    "kanji": "治",
+    "meaning": ["govern", "rule", "cure"],
+    "reading": ["ジ", "チ", "おさめる", "なおる"],
+    "vocab": [
+      { "word": "政治", "reading": "せいじ", "meaning": "politics" },
+      { "word": "自治", "reading": "じち", "meaning": "self-government" },
+      { "word": "治療", "reading": "ちりょう", "meaning": "medical treatment" }
+    ]
+  },
+  {
+    "kanji": "経",
+    "meaning": ["manage", "pass through", "economy"],
+    "reading": ["ケイ", "キョウ", "へる"],
+    "vocab": [
+      { "word": "経済", "reading": "けいざい", "meaning": "economy" },
+      { "word": "経験", "reading": "けいけん", "meaning": "experience" },
+      { "word": "経営", "reading": "けいえい", "meaning": "management" }
+    ]
+  },
+  {
+    "kanji": "済",
+    "meaning": ["settle", "finish", "economy"],
+    "reading": ["サイ", "セイ", "すむ"],
+    "vocab": [
+      { "word": "経済", "reading": "けいざい", "meaning": "economy" },
+      { "word": "決済", "reading": "けっさい", "meaning": "payment settlement" },
+      { "word": "済む", "reading": "すむ", "meaning": "to be completed" }
+    ]
+  },
+  {
+    "kanji": "法",
+    "meaning": ["law", "method"],
+    "reading": ["ホウ"],
+    "vocab": [
+      { "word": "法律", "reading": "ほうりつ", "meaning": "law" },
+      { "word": "方法", "reading": "ほうほう", "meaning": "method" },
+      { "word": "憲法", "reading": "けんぽう", "meaning": "constitution" }
+    ]
+  },
+  {
+    "kanji": "律",
+    "meaning": ["law", "regulation"],
+    "reading": ["リツ"],
+    "vocab": [
+      { "word": "法律", "reading": "ほうりつ", "meaning": "law" },
+      { "word": "規律", "reading": "きりつ", "meaning": "discipline" },
+      { "word": "自律", "reading": "じりつ", "meaning": "self-discipline" }
+    ]
+  },
+  {
+    "kanji": "議",
+    "meaning": ["discussion", "deliberation"],
+    "reading": ["ギ"],
+    "vocab": [
+      { "word": "会議", "reading": "かいぎ", "meaning": "meeting" },
+      { "word": "議会", "reading": "ぎかい", "meaning": "assembly" },
+      { "word": "議員", "reading": "ぎいん", "meaning": "member of parliament" }
+    ]
+  },
+  {
+    "kanji": "員",
+    "meaning": ["member"],
+    "reading": ["イン"],
+    "vocab": [
+      { "word": "議員", "reading": "ぎいん", "meaning": "member of parliament" },
+      { "word": "会社員", "reading": "かいしゃいん", "meaning": "company employee" },
+      { "word": "店員", "reading": "てんいん", "meaning": "shop clerk" }
+    ]
+  },
+  {
+    "kanji": "選",
+    "meaning": ["choose", "elect"],
+    "reading": ["セン", "えらぶ"],
+    "vocab": [
+      { "word": "選挙", "reading": "せんきょ", "meaning": "election" },
+      { "word": "選択", "reading": "せんたく", "meaning": "choice" },
+      { "word": "当選", "reading": "とうせん", "meaning": "election victory" }
+    ]
+  },
+  {
+    "kanji": "挙",
+    "meaning": ["raise", "election"],
+    "reading": ["キョ", "あげる"],
+    "vocab": [
+      { "word": "選挙", "reading": "せんきょ", "meaning": "election" },
+      { "word": "挙手", "reading": "きょしゅ", "meaning": "raising one's hand" },
+      { "word": "挙げる", "reading": "あげる", "meaning": "to raise" }
+    ]
+  }
+]
