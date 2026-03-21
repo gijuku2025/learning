@@ -293,11 +293,11 @@ do {
   else if (newQueue.length) current = newQueue.shift();
   else break;
 
-  const types = ["meaning","meaning","on","kun","on","kun"];
+  const types = ["meaning","meaning","reading","reading"];
 
-  if (current.onyomi && current.onyomi.length) types.push("on");
-  if (current.kunyomi && current.kunyomi.length) types.push("kun");
-
+if ((current.onyomi && current.onyomi.length) || (current.kunyomi && current.kunyomi.length)) {
+  types.push("reading");
+}
   if (Array.isArray(current.vocab) && current.vocab.length) {
     types.push("vocabMeaning");
     if (current.vocab.some(v => v.reading && v.reading.length)) {
@@ -340,15 +340,10 @@ if (recentItems.length > RECENT_LIMIT) {
     label = "Type the English meaning:";
   }
 
-  if (type === "on") {
-    prompt = current.kanji || current.word || "";
-    label = "Type the ON reading (katakana):";
-  }
-
-  if (type === "kun") {
-    prompt = current.kanji || current.word || "";
-    label = "Type the KUN reading (hiragana):";
-  }
+  if (type === "reading") {
+  prompt = current.kanji || current.word || "";
+  label = "Type any reading (hiragana or katakana). You can enter multiple:";
+}
 
   
 
@@ -444,16 +439,44 @@ function submitAnswer() {
     return input === target || levenshtein(input, target) <= 1;
   });
 }
-  else if (current.questionType === "on" && current.onyomi && current.onyomi.length) {
+  
+else if (current.questionType === "reading") {
   const normalizedInput = normalizeJP(input);
-  correct = current.onyomi.some(r => normalizeJP(r) === normalizedInput);
+
+  // split multiple answers
+  const inputs = normalizedInput.split(/[\s,]+/).filter(Boolean);
+
+if (inputs.length === 0) {
+  correct = false;
+  current._readingFeedback = {
+    correctInputs: [],
+    wrongInputs: [],
+    allReadings: [
+      ...(current.onyomi || []),
+      ...(current.kunyomi || [])
+    ]
+  };
+  return;
 }
 
-else if (current.questionType === "kun" && current.kunyomi && current.kunyomi.length) {
-  const normalizedInput = normalizeJP(input);
-  correct = current.kunyomi.some(r => normalizeJP(r) === normalizedInput);
-}
+  const allReadings = [
+    ...(current.onyomi || []),
+    ...(current.kunyomi || [])
+  ].map(r => normalizeJP(r));
 
+  const correctInputs = inputs.filter(ans => allReadings.includes(ans));
+  const wrongInputs = inputs.filter(ans => !allReadings.includes(ans));
+
+  // at least one correct = pass
+  correct = correctInputs.length > 0;
+
+  // store for feedback display
+  current._readingFeedback = {
+    correctInputs,
+    wrongInputs,
+    allReadings
+  };
+}
 
 else if (current.questionType === "vocabMeaning") {
   const meanings = Array.isArray(current.activeVocab.meaning)
@@ -664,35 +687,53 @@ function showSimpleFeedback(isCorrect) {
           ${isCorrect ? "✔ Correct!" : "✘ Incorrect"}
         </h3>
 
-        <div class="feedback-word">
+       <div class="feedback-word">
   ${
     current.questionType === "meaning"
       ? `${current.kanji} – ${Array.isArray(current.meaning) ? current.meaning.join(", ") : current.meaning}`
-      : current.questionType === "on"
-      ? `${current.kanji} – ON: ${(current.onyomi || []).join(", ")}`
-      : current.questionType === "kun"
-      ? `${current.kanji} – KUN: ${(current.kunyomi || []).join(", ")}`
-      : current.questionType === "vocabMeaning"
-  ? `${current.activeVocab.word || current.kanji} – ${Array.isArray(current.activeVocab.meaning) ? current.activeVocab.meaning.join(", ") : current.activeVocab.meaning}`
-: current.questionType === "vocabReading"
-  ? `${current.activeVocab.word || current.kanji} – ${Array.isArray(current.activeVocab.reading) ? current.activeVocab.reading.join(", ") : current.activeVocab.reading}`
-      : ""
+
+    : current.questionType === "reading"
+      ? (() => {
+          const fb = current._readingFeedback || {};
+          const all = fb.allReadings || [
+            ...(current.onyomi || []),
+            ...(current.kunyomi || [])
+          ];
+
+          let text = `${current.kanji} – Readings: ${all.join(", ")}`;
+
+          if (fb.correctInputs?.length) {
+            text += `<br><span class="correct">✔ You got: ${fb.correctInputs.join(", ")}</span>`;
+          }
+
+          if (fb.wrongInputs?.length) {
+            text += `<br><span class="incorrect">✘ Not correct: ${fb.wrongInputs.join(", ")}</span>`;
+          }
+
+          // ✅ THIS IS YOUR NEW "missing" PART
+          const missing = all.filter(r => {
+  const normalized = normalizeJP(r);
+  return !(fb.correctInputs || []).includes(normalized);
+});
+
+          if (missing.length) {
+            text += `<br><span style="color:#2563eb;">Missing: ${missing.join(", ")}</span>`;
+          }
+
+          return text;
+        })()
+
+    : current.questionType === "vocabMeaning"
+      ? `${current.activeVocab.word || current.kanji} – ${Array.isArray(current.activeVocab.meaning) ? current.activeVocab.meaning.join(", ") : current.activeVocab.meaning}`
+
+    : current.questionType === "vocabReading"
+      ? `${current.activeVocab.word || current.kanji} – ${Array.isArray(current.activeVocab.reading) ? current.activeVocab.reading.join(", ") : current.activeVocab.reading}`
+
+    : ""
   }
 </div>
 
-	${current.kanji ? `
-<div style="margin-top:12px;">
-  <img 
-    src="https://raw.githubusercontent.com/KanjiVG/kanjivg/master/kanji/${current.kanji.charCodeAt(0).toString(16).padStart(5,"0")}.svg"
-    style="height:120px; opacity:0.9;"
-  >
-</div>
-` : ""}	  
-		  
-		  
-		  
-		  
-        <div style="margin:10px 0;">
+	<div style="margin:10px 0;">
           <div>Mastery:</div>
           <div>
             ${bars} ${p.mastered ? "⭐ Mastered!" : ""}
