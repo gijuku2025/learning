@@ -21,12 +21,6 @@ body {
   margin: 0;
 
   min-height: 100vh;
-  overflow-y: auto;
-  overscroll-behavior: none;  
-
-  display: flex;
-  justify-content: center;
-  align-items: center;  
 }
 
 #app {
@@ -37,6 +31,12 @@ body {
 
   padding-left: 12px;
   padding-right: 12px;
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;   /* 🔥 TRUE vertical center */
 }
 
 .prompt-label {
@@ -192,4 +192,33 @@ html, body {
   max-height: none;             /* 🔥 remove cap */
 
   padding: 20px;
+}
+
+.chapter-card {
+  background: #ffffff;
+  color: #1f2937;
+
+  width: 90%;
+  max-width: 340px;
+
+  padding: 20px;
+  border-radius: 20px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.chapter-card h2 {
+  margin: 5px 0;
+  font-size: 1.3em;
+}
+
+.chapter-card p {
+  margin: 0;
+  font-size: 0.9em;
 }
