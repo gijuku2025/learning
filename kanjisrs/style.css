@@ -94,6 +94,7 @@ button {
   font-weight: bold;
   font-size: 1.15em;
   box-shadow: 0 3px 0 rgba(0,0,0,0.15);
+  width: 100%;
 }
 
 button:hover {
@@ -126,22 +127,22 @@ input:focus {
 
 .chapter-grid {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 8px;
-  max-width: 400px;
+  grid-template-columns: repeat(5, 1fr); /* 🔥 was 8 */
+  gap: 10px;
+  max-width: 260px;  /* 🔥 tighter */
   margin: 20px auto;
 }
 
 .chapter-tile {
   background: #ffffff;
   color: #1f2937;
-  padding: 8px;
+  padding: 12px;
   border-radius: 8px;
   text-align: center;
   cursor: pointer;
   font-weight: bold;
   border: 2px solid #cbd5e1;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .chapter-tile.selected {
@@ -177,4 +178,11 @@ input:focus {
 html, body {
   width: 100%;
   overflow-x: hidden;
+}
+
+.compact-card {
+  max-width: 380px;
+  margin: 80px auto;   /* 🔥 centers vertically with breathing room */
+  height: auto;        /* 🔥 no forced height */
+  padding: 20px;
 }
