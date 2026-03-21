@@ -642,9 +642,13 @@ function finishDrawing() {
   for (let ch of chars) {
     const svg = await loadKanjiSVG(ch);
     if (svg) {
-      const wrapper = document.createElement("div");
-      wrapper.innerHTML = svg;
-      diagramEl.appendChild(wrapper.firstChild);
+      const parser = new DOMParser();
+const doc = parser.parseFromString(svg, "image/svg+xml");
+const svgEl = doc.querySelector("svg");
+
+if (svgEl) {
+  diagramEl.appendChild(svgEl);
+}
     }
   }
 
