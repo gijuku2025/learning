@@ -27,16 +27,9 @@ body {
   width: 100%;
   max-width: 430px;
 
-  margin: 0 auto;
+  margin: 0 auto;   /* 🔥 THIS alone centers everything */
 
-  padding: 0 16px; /* 🔥 equal, clean spacing */
-
-  min-height: 100dvh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateY(-10px);
+  padding: 0 16px;
 }
 
 
@@ -120,7 +113,7 @@ input:focus {
   width: 100%;
   max-width: 360px; /* 🔥 slightly smaller = better symmetry */
 
-  margin: 0 auto;
+ margin: 40px auto; 
 
   display: flex;
   flex-direction: column;
@@ -211,7 +204,7 @@ html, body {
   align-items: center;
 
   gap: 12px;
-  margin: 0;
+  margin: 40px auto; 
 }
 
 .chapter-card h2 {
