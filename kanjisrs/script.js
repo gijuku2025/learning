@@ -1,5 +1,6 @@
 
 
+
 const app = document.getElementById("app");
 const SUBJECT = "kanji"; // change to "geometry" or "civics" in other copies
 const SUBJECT_LABEL = SUBJECT.charAt(0).toUpperCase() + SUBJECT.slice(1);
@@ -379,9 +380,9 @@ current.activeVocab = v;
       <div class="prompt-label">${label}</div>
       <input id="answer" class="answer-input" autofocus
              onkeydown="if(event.key==='Enter') submitAnswer()">
-      <div class="center" style="margin-top:15px;">
-        <button onclick="submitAnswer()">Submit</button>
-      </div>
+      <div class="bottom-area center">
+  <button onclick="submitAnswer()">Submit</button>
+</div>
     </div>
   </div>
   `;
