@@ -182,7 +182,10 @@ html, body {
 
 .compact-card {
   max-width: 380px;
-  margin: 80px auto;   /* 🔥 centers vertically with breathing room */
-  height: auto;        /* 🔥 no forced height */
+  margin: 80px auto;
+
+  height: auto !important;      /* 🔥 override 75vh */
+  max-height: none;             /* 🔥 remove cap */
+
   padding: 20px;
 }
