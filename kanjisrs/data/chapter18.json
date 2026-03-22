@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "護",
+    "meaning": ["defend"],
+    "reading": ["ゴ"],
+    "vocab": [
+      { "word": "保護", "reading": "ほご", "meaning": "protection" },
+      { "word": "弁護", "reading": "べんご", "meaning": "defense (legal)" },
+      { "word": "看護", "reading": "かんご", "meaning": "nursing care" }
+    ]
+  },
+  {
+    "kanji": "犯",
+    "meaning": ["crime", "commit"],
+    "reading": ["ハン", "おかす"],
+    "vocab": [
+      { "word": "犯罪", "reading": "はんざい", "meaning": "crime" },
+      { "word": "犯人", "reading": "はんにん", "meaning": "criminal / culprit" },
+      { "word": "犯す", "reading": "おかす", "meaning": "to commit (a crime)" }
+    ]
+  },
+  {
+    "kanji": "罪",
+    "meaning": ["crime", "guilt"],
+    "reading": ["ザイ", "つみ"],
+    "vocab": [
+      { "word": "犯罪", "reading": "はんざい", "meaning": "crime" },
+      { "word": "罪人", "reading": "ざいにん", "meaning": "criminal" },
+      { "word": "罪悪", "reading": "ざいあく", "meaning": "sin / evil" }
+    ]
+  },
+  {
+    "kanji": "罰",
+    "meaning": ["punishment"],
+    "reading": ["バツ"],
+    "vocab": [
+      { "word": "罰金", "reading": "ばっきん", "meaning": "fine / penalty" },
+      { "word": "処罰", "reading": "しょばつ", "meaning": "punishment" },
+      { "word": "罰する", "reading": "ばっする", "meaning": "to punish" }
+    ]
+  },
+  {
+    "kanji": "環",
+    "meaning": ["environment", "ring"],
+    "reading": ["カン"],
+    "vocab": [
+      { "word": "環境", "reading": "かんきょう", "meaning": "environment" },
+      { "word": "循環", "reading": "じゅんかん", "meaning": "circulation / cycle" },
+      { "word": "環状", "reading": "かんじょう", "meaning": "ring-shaped" }
+    ]
+  }
+]

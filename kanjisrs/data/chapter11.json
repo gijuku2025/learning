@@ -1,0 +1,42 @@
+[
+  {
+    "kanji": "備",
+    "meaning": ["prepare", "equip"],
+    "reading": ["ビ", "そなえる"],
+    "vocab": [
+      { "word": "準備", "reading": "じゅんび", "meaning": "preparation" },
+      { "word": "設備", "reading": "せつび", "meaning": "equipment / facilities" },
+      { "word": "備える", "reading": "そなえる", "meaning": "to prepare" }
+    ]
+  },
+  {
+    "kanji": "整",
+    "meaning": ["arrange", "organize"],
+    "reading": ["セイ", "ととのえる"],
+    "vocab": [
+      { "word": "整理", "reading": "せいり", "meaning": "organize / sort" },
+      { "word": "整備", "reading": "せいび", "meaning": "maintenance" },
+      { "word": "調整", "reading": "ちょうせい", "meaning": "adjustment" }
+    ]
+  },
+  {
+    "kanji": "管",
+    "meaning": ["manage", "pipe"],
+    "reading": ["カン", "くだ"],
+    "vocab": [
+      { "word": "管理", "reading": "かんり", "meaning": "management" },
+      { "word": "管制", "reading": "かんせい", "meaning": "control" },
+      { "word": "水道管", "reading": "すいどうかん", "meaning": "water pipe" }
+    ]
+  },
+  {
+    "kanji": "営",
+    "meaning": ["operate", "camp"],
+    "reading": ["エイ", "いとなむ"],
+    "vocab": [
+      { "word": "営業", "reading": "えいぎょう", "meaning": "business operations" },
+      { "word": "経営", "reading": "けいえい", "meaning": "management" },
+      { "word": "運営", "reading": "うんえい", "meaning": "operation / administration" }
+    ]
+  }
+]

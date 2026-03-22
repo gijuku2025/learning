@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "賛",
+    "meaning": ["approve", "agree"],
+    "reading": ["サン"],
+    "vocab": [
+      { "word": "賛成", "reading": "さんせい", "meaning": "agreement / approval" },
+      { "word": "賛同", "reading": "さんどう", "meaning": "support / agreement" },
+      { "word": "称賛", "reading": "しょうさん", "meaning": "praise" }
+    ]
+  },
+  {
+    "kanji": "質",
+    "meaning": ["quality", "matter"],
+    "reading": ["シツ"],
+    "vocab": [
+      { "word": "品質", "reading": "ひんしつ", "meaning": "quality" },
+      { "word": "物質", "reading": "ぶっしつ", "meaning": "substance" },
+      { "word": "本質", "reading": "ほんしつ", "meaning": "essence" }
+    ]
+  },
+  {
+    "kanji": "量",
+    "meaning": ["amount"],
+    "reading": ["リョウ", "はかる"],
+    "vocab": [
+      { "word": "数量", "reading": "すうりょう", "meaning": "quantity" },
+      { "word": "重量", "reading": "じゅうりょう", "meaning": "weight" },
+      { "word": "大量", "reading": "たいりょう", "meaning": "large quantity" }
+    ]
+  },
+  {
+    "kanji": "価",
+    "meaning": ["value", "price"],
+    "reading": ["カ", "あたい"],
+    "vocab": [
+      { "word": "価値", "reading": "かち", "meaning": "value" },
+      { "word": "価格", "reading": "かかく", "meaning": "price" },
+      { "word": "評価", "reading": "ひょうか", "meaning": "evaluation" }
+    ]
+  },
+  {
+    "kanji": "格",
+    "meaning": ["status", "standard"],
+    "reading": ["カク"],
+    "vocab": [
+      { "word": "価格", "reading": "かかく", "meaning": "price" },
+      { "word": "資格", "reading": "しかく", "meaning": "qualification" },
+      { "word": "格差", "reading": "かくさ", "meaning": "gap / disparity" }
+    ]
+  }
+]

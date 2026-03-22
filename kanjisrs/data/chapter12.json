@@ -1,0 +1,42 @@
+[
+  {
+    "kanji": "職",
+    "meaning": ["job", "occupation"],
+    "reading": ["ショク"],
+    "vocab": [
+      { "word": "職業", "reading": "しょくぎょう", "meaning": "occupation" },
+      { "word": "就職", "reading": "しゅうしょく", "meaning": "employment" },
+      { "word": "転職", "reading": "てんしょく", "meaning": "changing jobs" }
+    ]
+  },
+  {
+    "kanji": "技",
+    "meaning": ["skill", "technique"],
+    "reading": ["ギ", "わざ"],
+    "vocab": [
+      { "word": "技術", "reading": "ぎじゅつ", "meaning": "technology / technique" },
+      { "word": "特技", "reading": "とくぎ", "meaning": "special skill" },
+      { "word": "演技", "reading": "えんぎ", "meaning": "acting performance" }
+    ]
+  },
+  {
+    "kanji": "術",
+    "meaning": ["method", "technique"],
+    "reading": ["ジュツ", "すべ"],
+    "vocab": [
+      { "word": "技術", "reading": "ぎじゅつ", "meaning": "technology / technique" },
+      { "word": "芸術", "reading": "げいじゅつ", "meaning": "art" },
+      { "word": "戦術", "reading": "せんじゅつ", "meaning": "tactics" }
+    ]
+  },
+  {
+    "kanji": "能",
+    "meaning": ["ability"],
+    "reading": ["ノウ"],
+    "vocab": [
+      { "word": "能力", "reading": "のうりょく", "meaning": "ability" },
+      { "word": "可能", "reading": "かのう", "meaning": "possible" },
+      { "word": "機能", "reading": "きのう", "meaning": "function" }
+    ]
+  }
+]

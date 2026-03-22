@@ -1,0 +1,32 @@
+[
+  {
+    "kanji": "否",
+    "meaning": ["no", "reject"],
+    "reading": ["ヒ", "いな"],
+    "vocab": [
+      { "word": "否定", "reading": "ひてい", "meaning": "denial / negation" },
+      { "word": "拒否", "reading": "きょひ", "meaning": "rejection / refusal" },
+      { "word": "可否", "reading": "かひ", "meaning": "pro / con" }
+    ]
+  },
+  {
+    "kanji": "危",
+    "meaning": ["dangerous"],
+    "reading": ["キ", "あぶない"],
+    "vocab": [
+      { "word": "危険", "reading": "きけん", "meaning": "danger" },
+      { "word": "危機", "reading": "きき", "meaning": "crisis" },
+      { "word": "危ない", "reading": "あぶない", "meaning": "dangerous" }
+    ]
+  },
+  {
+    "kanji": "険",
+    "meaning": ["steep", "dangerous"],
+    "reading": ["ケン", "けわしい"],
+    "vocab": [
+      { "word": "危険", "reading": "きけん", "meaning": "danger" },
+      { "word": "険しい", "reading": "けわしい", "meaning": "steep / severe" },
+      { "word": "冒険", "reading": "ぼうけん", "meaning": "adventure" }
+    ]
+  }
+]

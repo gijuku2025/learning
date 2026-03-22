@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "費",
+    "meaning": ["expense", "cost"],
+    "reading": ["ヒ", "ついやす"],
+    "vocab": [
+      { "word": "費用", "reading": "ひよう", "meaning": "expense" },
+      { "word": "消費", "reading": "しょうひ", "meaning": "consumption" },
+      { "word": "学費", "reading": "がくひ", "meaning": "tuition" }
+    ]
+  },
+  {
+    "kanji": "資",
+    "meaning": ["resources", "capital"],
+    "reading": ["シ"],
+    "vocab": [
+      { "word": "資源", "reading": "しげん", "meaning": "resources" },
+      { "word": "資金", "reading": "しきん", "meaning": "funds" },
+      { "word": "投資", "reading": "とうし", "meaning": "investment" }
+    ]
+  },
+  {
+    "kanji": "源",
+    "meaning": ["source", "origin"],
+    "reading": ["ゲン", "みなもと"],
+    "vocab": [
+      { "word": "資源", "reading": "しげん", "meaning": "resources" },
+      { "word": "電源", "reading": "でんげん", "meaning": "power source" },
+      { "word": "水源", "reading": "すいげん", "meaning": "water source" }
+    ]
+  },
+  {
+    "kanji": "税",
+    "meaning": ["tax"],
+    "reading": ["ゼイ"],
+    "vocab": [
+      { "word": "税金", "reading": "ぜいきん", "meaning": "tax" },
+      { "word": "所得税", "reading": "しょとくぜい", "meaning": "income tax" },
+      { "word": "課税", "reading": "かぜい", "meaning": "taxation" }
+    ]
+  },
+  {
+    "kanji": "設",
+    "meaning": ["establish"],
+    "reading": ["セツ", "もうける"],
+    "vocab": [
+      { "word": "設立", "reading": "せつりつ", "meaning": "establishment" },
+      { "word": "設備", "reading": "せつび", "meaning": "facilities" },
+      { "word": "建設", "reading": "けんせつ", "meaning": "construction" }
+    ]
+  }
+]

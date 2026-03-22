@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "感",
+    "meaning": ["feeling", "sense"],
+    "reading": ["カン"],
+    "vocab": [
+      { "word": "感覚", "reading": "かんかく", "meaning": "sense" },
+      { "word": "感謝", "reading": "かんしゃ", "meaning": "gratitude" },
+      { "word": "共感", "reading": "きょうかん", "meaning": "empathy" }
+    ]
+  },
+  {
+    "kanji": "決",
+    "meaning": ["decide"],
+    "reading": ["ケツ", "きめる"],
+    "vocab": [
+      { "word": "解決", "reading": "かいけつ", "meaning": "solution" },
+      { "word": "決心", "reading": "けっしん", "meaning": "determination" },
+      { "word": "決勝", "reading": "けっしょう", "meaning": "final match" }
+    ]
+  },
+  {
+    "kanji": "定",
+    "meaning": ["decide", "fix"],
+    "reading": ["テイ", "ジョウ", "さだめる"],
+    "vocab": [
+      { "word": "定期", "reading": "ていき", "meaning": "regular / periodic" },
+      { "word": "定年", "reading": "ていねん", "meaning": "retirement age" },
+      { "word": "定数", "reading": "ていすう", "meaning": "fixed number" }
+    ]
+  },
+  {
+    "kanji": "増",
+    "meaning": ["increase"],
+    "reading": ["ゾウ", "ふえる"],
+    "vocab": [
+      { "word": "増加", "reading": "ぞうか", "meaning": "increase" },
+      { "word": "急増", "reading": "きゅうぞう", "meaning": "rapid increase" },
+      { "word": "増大", "reading": "ぞうだい", "meaning": "growth / expansion" }
+    ]
+  },
+  {
+    "kanji": "減",
+    "meaning": ["decrease"],
+    "reading": ["ゲン", "へる"],
+    "vocab": [
+      { "word": "減少", "reading": "げんしょう", "meaning": "decrease" },
+      { "word": "削減", "reading": "さくげん", "meaning": "reduction" },
+      { "word": "半減", "reading": "はんげん", "meaning": "halve / reduce by half" }
+    ]
+  }
+]

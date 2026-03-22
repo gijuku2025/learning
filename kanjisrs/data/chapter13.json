@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "機",
+    "meaning": ["machine", "opportunity"],
+    "reading": ["キ", "はた"],
+    "vocab": [
+      { "word": "機会", "reading": "きかい", "meaning": "opportunity" },
+      { "word": "機械", "reading": "きかい", "meaning": "machine" },
+      { "word": "飛行機", "reading": "ひこうき", "meaning": "airplane" }
+    ]
+  },
+  {
+    "kanji": "器",
+    "meaning": ["tool", "container"],
+    "reading": ["キ", "うつわ"],
+    "vocab": [
+      { "word": "食器", "reading": "しょっき", "meaning": "tableware" },
+      { "word": "楽器", "reading": "がっき", "meaning": "musical instrument" },
+      { "word": "器具", "reading": "きぐ", "meaning": "tool / equipment" }
+    ]
+  },
+  {
+    "kanji": "材",
+    "meaning": ["material"],
+    "reading": ["ザイ"],
+    "vocab": [
+      { "word": "材料", "reading": "ざいりょう", "meaning": "ingredients / materials" },
+      { "word": "木材", "reading": "もくざい", "meaning": "timber / wood material" },
+      { "word": "教材", "reading": "きょうざい", "meaning": "teaching material" }
+    ]
+  },
+  {
+    "kanji": "製",
+    "meaning": ["manufacture"],
+    "reading": ["セイ"],
+    "vocab": [
+      { "word": "製品", "reading": "せいひん", "meaning": "product" },
+      { "word": "製造", "reading": "せいぞう", "meaning": "manufacturing" },
+      { "word": "日本製", "reading": "にほんせい", "meaning": "made in Japan" }
+    ]
+  },
+  {
+    "kanji": "限",
+    "meaning": ["limit"],
+    "reading": ["ゲン", "かぎる"],
+    "vocab": [
+      { "word": "制限", "reading": "せいげん", "meaning": "restriction / limit" },
+      { "word": "期限", "reading": "きげん", "meaning": "deadline" },
+      { "word": "無限", "reading": "むげん", "meaning": "infinite" }
+    ]
+  }
+]

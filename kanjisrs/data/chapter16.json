@@ -1,0 +1,42 @@
+[
+  {
+    "kanji": "査",
+    "meaning": ["inspect"],
+    "reading": ["サ"],
+    "vocab": [
+      { "word": "調査", "reading": "ちょうさ", "meaning": "investigation / survey" },
+      { "word": "検査", "reading": "けんさ", "meaning": "inspection / examination" },
+      { "word": "審査", "reading": "しんさ", "meaning": "screening / review" }
+    ]
+  },
+  {
+    "kanji": "確",
+    "meaning": ["certain"],
+    "reading": ["カク", "たしか"],
+    "vocab": [
+      { "word": "確認", "reading": "かくにん", "meaning": "confirmation" },
+      { "word": "確実", "reading": "かくじつ", "meaning": "certain / reliable" },
+      { "word": "正確", "reading": "せいかく", "meaning": "accurate" }
+    ]
+  },
+  {
+    "kanji": "断",
+    "meaning": ["decide", "cut off"],
+    "reading": ["ダン", "ことわる"],
+    "vocab": [
+      { "word": "判断", "reading": "はんだん", "meaning": "judgment / decision" },
+      { "word": "決断", "reading": "けつだん", "meaning": "decision / determination" },
+      { "word": "断る", "reading": "ことわる", "meaning": "to refuse" }
+    ]
+  },
+  {
+    "kanji": "可",
+    "meaning": ["possible"],
+    "reading": ["カ"],
+    "vocab": [
+      { "word": "可能", "reading": "かのう", "meaning": "possible" },
+      { "word": "許可", "reading": "きょか", "meaning": "permission" },
+      { "word": "可決", "reading": "かけつ", "meaning": "approval / adoption" }
+    ]
+  }
+]

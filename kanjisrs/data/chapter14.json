@@ -1,0 +1,42 @@
+[
+  {
+    "kanji": "程",
+    "meaning": ["degree", "extent"],
+    "reading": ["テイ", "ほど"],
+    "vocab": [
+      { "word": "程度", "reading": "ていど", "meaning": "degree / extent" },
+      { "word": "過程", "reading": "かてい", "meaning": "process" },
+      { "word": "日程", "reading": "にってい", "meaning": "schedule" }
+    ]
+  },
+  {
+    "kanji": "率",
+    "meaning": ["rate", "ratio"],
+    "reading": ["リツ", "ソツ", "ひきいる"],
+    "vocab": [
+      { "word": "比率", "reading": "ひりつ", "meaning": "ratio" },
+      { "word": "確率", "reading": "かくりつ", "meaning": "probability" },
+      { "word": "効率", "reading": "こうりつ", "meaning": "efficiency" }
+    ]
+  },
+  {
+    "kanji": "例",
+    "meaning": ["example"],
+    "reading": ["レイ", "たとえる"],
+    "vocab": [
+      { "word": "例え", "reading": "たとえ", "meaning": "example / metaphor" },
+      { "word": "例えば", "reading": "たとえば", "meaning": "for example" },
+      { "word": "例外", "reading": "れいがい", "meaning": "exception" }
+    ]
+  },
+  {
+    "kanji": "況",
+    "meaning": ["condition", "situation"],
+    "reading": ["キョウ"],
+    "vocab": [
+      { "word": "状況", "reading": "じょうきょう", "meaning": "situation" },
+      { "word": "近況", "reading": "きんきょう", "meaning": "recent situation" },
+      { "word": "実況", "reading": "じっきょう", "meaning": "live commentary" }
+    ]
+  }
+]

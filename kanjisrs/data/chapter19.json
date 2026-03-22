@@ -1,0 +1,42 @@
+[
+  {
+    "kanji": "境",
+    "meaning": ["boundary", "environment"],
+    "reading": ["キョウ", "さかい"],
+    "vocab": [
+      { "word": "環境", "reading": "かんきょう", "meaning": "environment" },
+      { "word": "国境", "reading": "こっきょう", "meaning": "national border" },
+      { "word": "境界", "reading": "きょうかい", "meaning": "boundary line" }
+    ]
+  },
+  {
+    "kanji": "存",
+    "meaning": ["exist"],
+    "reading": ["ソン", "ゾン"],
+    "vocab": [
+      { "word": "存在", "reading": "そんざい", "meaning": "existence" },
+      { "word": "保存", "reading": "ほぞん", "meaning": "preservation" },
+      { "word": "生存", "reading": "せいぞん", "meaning": "survival" }
+    ]
+  },
+  {
+    "kanji": "維",
+    "meaning": ["maintain"],
+    "reading": ["イ"],
+    "vocab": [
+      { "word": "維持", "reading": "いじ", "meaning": "maintenance" },
+      { "word": "維新", "reading": "いしん", "meaning": "restoration / reform" },
+      { "word": "維持費", "reading": "いじひ", "meaning": "maintenance cost" }
+    ]
+  },
+  {
+    "kanji": "歴",
+    "meaning": ["history"],
+    "reading": ["レキ"],
+    "vocab": [
+      { "word": "歴史", "reading": "れきし", "meaning": "history" },
+      { "word": "経歴", "reading": "けいれき", "meaning": "personal history / career" },
+      { "word": "履歴", "reading": "りれき", "meaning": "record / history log" }
+    ]
+  }
+]

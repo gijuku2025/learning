@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "係",
+    "meaning": ["connection", "in charge"],
+    "reading": ["ケイ", "かかり"],
+    "vocab": [
+      { "word": "係員", "reading": "かかりいん", "meaning": "staff member" },
+      { "word": "関係", "reading": "かんけい", "meaning": "relationship" },
+      { "word": "係長", "reading": "かかりちょう", "meaning": "section chief" }
+    ]
+  },
+  {
+    "kanji": "比",
+    "meaning": ["compare"],
+    "reading": ["ヒ", "くらべる"],
+    "vocab": [
+      { "word": "比較", "reading": "ひかく", "meaning": "comparison" },
+      { "word": "比例", "reading": "ひれい", "meaning": "proportion" },
+      { "word": "比率", "reading": "ひりつ", "meaning": "ratio" }
+    ]
+  },
+  {
+    "kanji": "合",
+    "meaning": ["fit", "join"],
+    "reading": ["ゴウ", "ガッ", "あう"],
+    "vocab": [
+      { "word": "合同", "reading": "ごうどう", "meaning": "joint / combined" },
+      { "word": "合計", "reading": "ごうけい", "meaning": "total sum" },
+      { "word": "合格", "reading": "ごうかく", "meaning": "pass (exam)" }
+    ]
+  },
+  {
+    "kanji": "違",
+    "meaning": ["differ", "wrong"],
+    "reading": ["イ", "ちがう"],
+    "vocab": [
+      { "word": "違う", "reading": "ちがう", "meaning": "to differ" },
+      { "word": "違反", "reading": "いはん", "meaning": "violation" },
+      { "word": "勘違い", "reading": "かんちがい", "meaning": "misunderstanding" }
+    ]
+  },
+  {
+    "kanji": "反",
+    "meaning": ["oppose", "anti"],
+    "reading": ["ハン", "そる"],
+    "vocab": [
+      { "word": "反対", "reading": "はんたい", "meaning": "opposition" },
+      { "word": "反応", "reading": "はんのう", "meaning": "reaction" },
+      { "word": "違反", "reading": "いはん", "meaning": "violation" }
+    ]
+  }
+]

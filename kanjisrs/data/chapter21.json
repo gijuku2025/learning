@@ -1,0 +1,42 @@
+[
+  {
+    "kanji": "非",
+    "meaning": ["mistake", "negative", "non-"],
+    "reading": ["ヒ", "あらず"],
+    "vocab": [
+      { "word": "非常", "reading": "ひじょう", "meaning": "emergency / extraordinary" },
+      { "word": "非難", "reading": "ひなん", "meaning": "criticism / blame" },
+      { "word": "非公式", "reading": "ひこうしき", "meaning": "unofficial" }
+    ]
+  },
+  {
+    "kanji": "必",
+    "meaning": ["necessary", "inevitable"],
+    "reading": ["ヒツ", "かならず"],
+    "vocab": [
+      { "word": "必要", "reading": "ひつよう", "meaning": "necessary" },
+      { "word": "必ず", "reading": "かならず", "meaning": "certainly / without fail" },
+      { "word": "必死", "reading": "ひっし", "meaning": "desperate" }
+    ]
+  },
+  {
+    "kanji": "要",
+    "meaning": ["need", "important", "pivot"],
+    "reading": ["ヨウ", "いる"],
+    "vocab": [
+      { "word": "必要", "reading": "ひつよう", "meaning": "necessary" },
+      { "word": "重要", "reading": "じゅうよう", "meaning": "important" },
+      { "word": "要点", "reading": "ようてん", "meaning": "main point" }
+    ]
+  },
+  {
+    "kanji": "適",
+    "meaning": ["suitable", "proper"],
+    "reading": ["テキ"],
+    "vocab": [
+      { "word": "適当", "reading": "てきとう", "meaning": "appropriate / suitable" },
+      { "word": "適応", "reading": "てきおう", "meaning": "adaptation" },
+      { "word": "最適", "reading": "さいてき", "meaning": "optimal" }
+    ]
+  }
+]

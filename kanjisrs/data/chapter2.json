@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "律",
+    "meaning": ["law", "regulation"],
+    "reading": ["リツ"],
+    "vocab": [
+      { "word": "法律", "reading": "ほうりつ", "meaning": "law" },
+      { "word": "規律", "reading": "きりつ", "meaning": "discipline" },
+      { "word": "自律", "reading": "じりつ", "meaning": "self-discipline" }
+    ]
+  },
+  {
+    "kanji": "議",
+    "meaning": ["discussion", "deliberation"],
+    "reading": ["ギ"],
+    "vocab": [
+      { "word": "会議", "reading": "かいぎ", "meaning": "meeting" },
+      { "word": "議会", "reading": "ぎかい", "meaning": "assembly" },
+      { "word": "議員", "reading": "ぎいん", "meaning": "member of parliament" }
+    ]
+  },
+  {
+    "kanji": "員",
+    "meaning": ["member"],
+    "reading": ["イン"],
+    "vocab": [
+      { "word": "議員", "reading": "ぎいん", "meaning": "member of parliament" },
+      { "word": "会社員", "reading": "かいしゃいん", "meaning": "company employee" },
+      { "word": "店員", "reading": "てんいん", "meaning": "shop clerk" }
+    ]
+  },
+  {
+    "kanji": "選",
+    "meaning": ["choose", "elect"],
+    "reading": ["セン", "えらぶ"],
+    "vocab": [
+      { "word": "選挙", "reading": "せんきょ", "meaning": "election" },
+      { "word": "選択", "reading": "せんたく", "meaning": "choice" },
+      { "word": "当選", "reading": "とうせん", "meaning": "election victory" }
+    ]
+  },
+  {
+    "kanji": "挙",
+    "meaning": ["raise", "election"],
+    "reading": ["キョ", "あげる"],
+    "vocab": [
+      { "word": "選挙", "reading": "せんきょ", "meaning": "election" },
+      { "word": "挙手", "reading": "きょしゅ", "meaning": "raising one's hand" },
+      { "word": "挙げる", "reading": "あげる", "meaning": "to raise" }
+    ]
+  }
+]

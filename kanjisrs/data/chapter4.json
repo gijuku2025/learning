@@ -1,0 +1,52 @@
+[
+  {
+    "kanji": "務",
+    "meaning": ["task", "duty", "work"],
+    "reading": ["ム", "つとめる"],
+    "vocab": [
+      { "word": "義務", "reading": "ぎむ", "meaning": "duty" },
+      { "word": "勤務", "reading": "きんむ", "meaning": "service/work duty" },
+      { "word": "事務", "reading": "じむ", "meaning": "office work" }
+    ]
+  },
+  {
+    "kanji": "局",
+    "meaning": ["bureau", "office", "department"],
+    "reading": ["キョク"],
+    "vocab": [
+      { "word": "郵便局", "reading": "ゆうびんきょく", "meaning": "post office" },
+      { "word": "放送局", "reading": "ほうそうきょく", "meaning": "broadcast station" },
+      { "word": "当局", "reading": "とうきょく", "meaning": "authorities" }
+    ]
+  },
+  {
+    "kanji": "任",
+    "meaning": ["responsibility", "duty", "entrust"],
+    "reading": ["ニン", "まかせる", "まかす"],
+    "vocab": [
+      { "word": "責任", "reading": "せきにん", "meaning": "responsibility" },
+      { "word": "任務", "reading": "にんむ", "meaning": "duty" },
+      { "word": "任せる", "reading": "まかせる", "meaning": "to entrust" }
+    ]
+  },
+  {
+    "kanji": "信",
+    "meaning": ["trust", "believe", "message"],
+    "reading": ["シン"],
+    "vocab": [
+      { "word": "信用", "reading": "しんよう", "meaning": "trust" },
+      { "word": "通信", "reading": "つうしん", "meaning": "communication" },
+      { "word": "信号", "reading": "しんごう", "meaning": "traffic signal" }
+    ]
+  },
+  {
+    "kanji": "認",
+    "meaning": ["acknowledge", "witness", "recognize"],
+    "reading": ["ニン", "みとめる"],
+    "vocab": [
+      { "word": "確認", "reading": "かくにん", "meaning": "confirmation" },
+      { "word": "承認", "reading": "しょうにん", "meaning": "approval" },
+      { "word": "認める", "reading": "みとめる", "meaning": "to recognize" }
+    ]
+  }
+]
