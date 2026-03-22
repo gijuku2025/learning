@@ -26,8 +26,9 @@ let sessionStartTime = null;
 let state = {
   nickname: localStorage.getItem("nickname"),
   activeChapters: JSON.parse(localStorage.getItem(SUBJECT + "_activeChapters") || "[]"),
-progress: JSON.parse(localStorage.getItem(SUBJECT + "_progress") || "{}"),
-todayNewCount: Number(localStorage.getItem(SUBJECT + "_todayNewCount") || 0),
+  previousChapters: JSON.parse(localStorage.getItem(SUBJECT + "_previousChapters") || "[]"),
+  progress: JSON.parse(localStorage.getItem(SUBJECT + "_progress") || "{}"),
+  todayNewCount: Number(localStorage.getItem(SUBJECT + "_todayNewCount") || 0),
 
   stats: { correct: 0, wrong: 0, new: 0, review: 0 }
 };
@@ -54,6 +55,8 @@ function save() {
   localStorage.setItem(SUBJECT + "_activeChapters", JSON.stringify(state.activeChapters));
 localStorage.setItem(SUBJECT + "_progress", JSON.stringify(state.progress));
 localStorage.setItem(SUBJECT + "_todayNewCount", state.todayNewCount);
+localStorage.setItem(SUBJECT + "_previousChapters", JSON.stringify(state.previousChapters));
+
 }
 
 function todayString() {
@@ -172,8 +175,9 @@ data.forEach(item => {
   }
 
   if (!item.id) {
-    item.id = ch + "_" + item.kanji;
-  }
+  item.id = ch + "_" + item.kanji;
+}
+item.chapter = ch; // ✅ ADD THIS
 
 });
 
@@ -197,7 +201,17 @@ failedThisSession = new Set();
 errorQueue = [];
 reviewingErrors = false;
   state.stats = { correct: 0, wrong: 0, new: 0, review: 0 };
-  await loadKanji();
+ const newChapters = state.activeChapters.filter(
+  ch => !state.previousChapters.includes(ch)
+);
+
+await loadKanji();
+
+state._newChaptersThisSession = newChapters;
+state.previousChapters = [...state.activeChapters];
+save();
+
+
   buildQueues();
   nextQuestion();
 }
@@ -211,7 +225,9 @@ function buildQueues() {
   for (let item of kanjiList) {
     let p = state.progress[item.id];
 
-    if (!p && state.todayNewCount < MAX_NEW_PER_DAY) {
+    const isFromNewChapter = state._newChaptersThisSession?.includes(item.chapter);
+
+if (!p && (state.todayNewCount < MAX_NEW_PER_DAY || isFromNewChapter)) {
   newQueue.push(item);
 } 
     else if (p && now >= p.nextReview) {
@@ -235,7 +251,7 @@ function buildQueues() {
 
 
 function renderProgress() {
-  const currentNum = sessionCount;
+  const currentNum = sessionCount + 1;
   const total = MAX_ITEMS_PER_SESSION;
   const percent = Math.min((sessionCount / total) * 100, 100);
 
@@ -255,7 +271,10 @@ function renderProgress() {
 
 
 function nextQuestion() {
-  if (sessionCount >= MAX_ITEMS_PER_SESSION) {
+  if (
+  sessionCount >= MAX_ITEMS_PER_SESSION &&
+  !(state._newChaptersThisSession?.length && newQueue.length)
+) {
 
   if (!reviewingErrors && errorQueue.length) {
 
@@ -310,21 +329,24 @@ if ((current.onyomi && current.onyomi.length) || (current.kunyomi && current.kun
 
 } while (
   typeAttempts < 10 &&
+  current &&
   recentItems.includes(current.id) &&
   recentTypes.includes(type)
 );
 
-current.questionType = type;
-if (!current || !(current.kanji || current.word)) {
-  console.warn("Invalid item skipped:", current);
-  return nextQuestion();
-}				   
-				   
+
+
+
+
 
 if (!current) return showResults();
 
+if (!(current.kanji || current.word)) {
+  console.warn("Invalid item skipped:", current);
+  return nextQuestion();
+}
 
-
+current.questionType = type;
  
 
   let prompt = "";
@@ -512,9 +534,9 @@ else if (current.questionType === "vocabReading") {
 
   state.stats.wrong++;
 
-  if (!errorQueue.includes(current)) {
-    errorQueue.push(current);
-  }
+  if (!errorQueue.some(item => item.id === current.id)) {
+  errorQueue.push(current);
+}
 
   updateProgress("again");
   showSimpleFeedback(false);
