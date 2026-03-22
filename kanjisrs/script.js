@@ -280,9 +280,7 @@ function nextQuestion() {
 }
   if (!reviewQueue.length && !learningQueue.length && !newQueue.length) return showResults();
 
-  if (learningQueue.length) current = learningQueue.shift();
-else if (reviewQueue.length) current = reviewQueue.shift();
-else current = newQueue.shift();
+  
 
 let typeAttempts = 0;
 let type;
@@ -317,6 +315,11 @@ if ((current.onyomi && current.onyomi.length) || (current.kunyomi && current.kun
 );
 
 current.questionType = type;
+if (!current || !(current.kanji || current.word)) {
+  console.warn("Invalid item skipped:", current);
+  return nextQuestion();
+}				   
+				   
 
 if (!current) return showResults();
 
@@ -337,12 +340,12 @@ if (recentItems.length > RECENT_LIMIT) {
 }
 
   if (type === "meaning") {
-    prompt = current.kanji || current.word || "";
+    prompt = current.kanji || current.word || "⚠️";
     label = "Type the English meaning:";
   }
 
   if (type === "reading") {
-  prompt = current.kanji || current.word || "";
+  prompt = current.kanji || current.word || "⚠️";
   label = "Type any reading (hiragana or katakana). You can enter multiple:";
 }
 
