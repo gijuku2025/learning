@@ -551,7 +551,7 @@ function finishDrawing() {
 		
 		
 		
-	function setupCanvas() {
+  function setupCanvas() {
   const canvas = document.getElementById("drawCanvas");
   const rect = canvas.getBoundingClientRect();
 
@@ -566,6 +566,8 @@ function finishDrawing() {
   ctx.strokeStyle = "#111";
 
   let drawing = false;
+  let lastX = 0;
+  let lastY = 0;
 
   function getPos(e) {
     if (e.touches) {
@@ -585,30 +587,40 @@ function finishDrawing() {
     e.preventDefault();
     drawing = true;
     const pos = getPos(e);
-    ctx.beginPath();
-    ctx.moveTo(pos.x, pos.y);
+    lastX = pos.x;
+    lastY = pos.y;
   }
 
   function move(e) {
     if (!drawing) return;
     e.preventDefault();
+
     const pos = getPos(e);
+
+    ctx.beginPath();
+    ctx.moveTo(lastX, lastY);
     ctx.lineTo(pos.x, pos.y);
     ctx.stroke();
+
+    lastX = pos.x;
+    lastY = pos.y;
   }
 
   function end() {
     drawing = false;
   }
 
+  // Mouse
   canvas.addEventListener("mousedown", start);
   canvas.addEventListener("mousemove", move);
   canvas.addEventListener("mouseup", end);
+  canvas.addEventListener("mouseleave", end);
 
+  // Touch
   canvas.addEventListener("touchstart", start, { passive: false });
   canvas.addEventListener("touchmove", move, { passive: false });
   canvas.addEventListener("touchend", end);
-}	
+}
 		
 		
 		
