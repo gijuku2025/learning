@@ -242,15 +242,19 @@ html, body {
   gap: 8px;
   opacity: 0.3;
   pointer-events: none;
+  touch-action: none;
 }
 
 .kanji-diagram svg {
   height: 80%;
   width: auto;
+  display: block;
 }
 
 .draw-canvas {
   position: absolute;
   inset: 0;
   touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
