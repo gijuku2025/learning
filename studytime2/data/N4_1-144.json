@@ -1,0 +1,1446 @@
+{
+ "id": "N4_1-144",
+ "name": "N4_1-144",
+ "cards": [
+  {
+   "id": "N4_1-144-1",
+   "num": "1",
+   "word": "たった今",
+   "reading": "たったいま",
+   "english": "just (now)",
+   "pos": "Adverb",
+   "sentenceJa": "電車は たった今 出た ところです。",
+   "sentenceEn": "The train just left."
+  },
+  {
+   "id": "N4_1-144-2",
+   "num": "2",
+   "word": "今にも",
+   "reading": "いまにも",
+   "english": "at any time, at any moment",
+   "pos": "Adverb",
+   "sentenceJa": "空が 暗くなって、今にも 雨が 降りそうです。",
+   "sentenceEn": "The sky is dark, and it looks like it could rain at any moment."
+  },
+  {
+   "id": "N4_1-144-3",
+   "num": "3",
+   "word": "もうすぐ",
+   "reading": "もうすぐ",
+   "english": "soon",
+   "pos": "Adverb",
+   "sentenceJa": "今 11時半。もうすぐ ランチの 時間です。",
+   "sentenceEn": "It's now 11:30. It will be lunch time soon."
+  },
+  {
+   "id": "N4_1-144-4",
+   "num": "4",
+   "word": "さっき",
+   "reading": "さっき",
+   "english": "just now, a while ago",
+   "pos": "Adverb",
+   "sentenceJa": "A 「山下さんは？」 B 「山下さんなら、さっき 帰りましたよ。」",
+   "sentenceEn": "A: Where is Yamashita-san? B: Yamashita-san went home just now."
+  },
+  {
+   "id": "N4_1-144-5",
+   "num": "5",
+   "word": "このごろ",
+   "reading": "このごろ",
+   "english": "recently, these days",
+   "pos": "Noun",
+   "sentenceJa": "このごろ、寒い日が多いですね。",
+   "sentenceEn": "There have been many cold days recently."
+  },
+  {
+   "id": "N4_1-144-6",
+   "num": "6",
+   "word": "最近",
+   "reading": "さいきん",
+   "english": "recently",
+   "pos": "Noun",
+   "sentenceJa": "最近、スペイン語を勉強しています。",
+   "sentenceEn": "I have been studying Spanish recently."
+  },
+  {
+   "id": "N4_1-144-7",
+   "num": "7",
+   "word": "この間",
+   "reading": "このあいだ",
+   "english": "just a while ago",
+   "pos": "Noun",
+   "sentenceJa": "A 「田中さんは元気ですか。」 B 「ええ。この間 会いましたよ。」",
+   "sentenceEn": "A: Is Tanaka-san doing well? B: Yes. I saw him just a while ago."
+  },
+  {
+   "id": "N4_1-144-8",
+   "num": "8",
+   "word": "今度",
+   "reading": "こんど",
+   "english": "this time; next time",
+   "pos": "Noun",
+   "sentenceJa": "①今度の テストは とても むずかしかった。 ②A「今度、お酒を 飲みに行きましょう。」 B「ええ、ぜひ。」",
+   "sentenceEn": "①The test this time was really difficult. ②A: Let's go get some drinks next time. B: Yes, let's."
+  },
+  {
+   "id": "N4_1-144-9",
+   "num": "9",
+   "word": "いつか",
+   "reading": "いつか",
+   "english": "some time, some day",
+   "pos": "Adverb",
+   "sentenceJa": "いつか 家族で 世界旅行を したいです。",
+   "sentenceEn": "Some day, I would like to travel around the world with my family."
+  },
+  {
+   "id": "N4_1-144-10",
+   "num": "10",
+   "word": "いつでも",
+   "reading": "いつでも",
+   "english": "any time",
+   "pos": "Adverb",
+   "sentenceJa": "A 「食事するなら、いつがいいですか。」 B 「私は いつでも いいですよ。」",
+   "sentenceEn": "A: Since we're going to have a meal, when would be a good time? B: Any time is okay with me."
+  },
+  {
+   "id": "N4_1-144-11",
+   "num": "11",
+   "word": "しょうらい",
+   "reading": "しょうらい",
+   "english": "future",
+   "pos": "Noun",
+   "sentenceJa": "しょうらい、医者に なりたいと 思っています。",
+   "sentenceEn": "I would like to be a doctor in the future."
+  },
+  {
+   "id": "N4_1-144-12",
+   "num": "12",
+   "word": "むかし",
+   "reading": "むかし",
+   "english": "past, a long time ago",
+   "pos": "Noun",
+   "sentenceJa": "むかし、ここは 海でした。",
+   "sentenceEn": "In the past, this was an ocean."
+  },
+  {
+   "id": "N4_1-144-13",
+   "num": "13",
+   "word": "ある日",
+   "reading": "あるひ",
+   "english": "one day",
+   "pos": "Noun",
+   "sentenceJa": "ある日、家の 前に 黒猫が いました。",
+   "sentenceEn": "One day, there was a black cat in front of the house."
+  },
+  {
+   "id": "N4_1-144-14",
+   "num": "14",
+   "word": "昼間",
+   "reading": "ひるま",
+   "english": "daytime, day",
+   "pos": "Noun",
+   "sentenceJa": "このあたりは 昼間は 人が 多いですが、夜は しずかです。",
+   "sentenceEn": "This area is full of people during the day, but it's quiet at night."
+  },
+  {
+   "id": "N4_1-144-15",
+   "num": "15",
+   "word": "夕方",
+   "reading": "ゆうがた",
+   "english": "evening",
+   "pos": "Noun",
+   "sentenceJa": "夕方から 強い 雨が 降るそうです。",
+   "sentenceEn": "I heard that there will be heavy rain in the evening."
+  },
+  {
+   "id": "N4_1-144-16",
+   "num": "16",
+   "word": "夜中",
+   "reading": "よなか",
+   "english": "late night",
+   "pos": "Noun",
+   "sentenceJa": "毎日、夜中まで 勉強して います。",
+   "sentenceEn": "I study late into the night everyday."
+  },
+  {
+   "id": "N4_1-144-17",
+   "num": "17",
+   "word": "明日",
+   "reading": "あした",
+   "english": "tomorrow",
+   "pos": "Noun",
+   "sentenceJa": "明日の 午後までに メールを 送って ください。",
+   "sentenceEn": "Please send the e-mail by noon tomorrow."
+  },
+  {
+   "id": "N4_1-144-18",
+   "num": "18",
+   "word": "おととい",
+   "reading": "おととい",
+   "english": "the day before yesterday",
+   "pos": "Noun",
+   "sentenceJa": "かぜを ひいて、おとといから 熱が あります。",
+   "sentenceEn": "I caught a cold, and have had a fever since the day before yesterday."
+  },
+  {
+   "id": "N4_1-144-19",
+   "num": "19",
+   "word": "ゆうべ",
+   "reading": "ゆうべ",
+   "english": "evening, last night",
+   "pos": "Noun",
+   "sentenceJa": "ゆうべ、うちで パーティーを しました。",
+   "sentenceEn": "I had a party at my house last night."
+  },
+  {
+   "id": "N4_1-144-20",
+   "num": "20",
+   "word": "今夜",
+   "reading": "こんや",
+   "english": "tonight",
+   "pos": "Noun",
+   "sentenceJa": "今夜は とても 寒いです。",
+   "sentenceEn": "It is going to be very cold tonight."
+  },
+  {
+   "id": "N4_1-144-21",
+   "num": "21",
+   "word": "今週",
+   "reading": "こんしゅう",
+   "english": "this week",
+   "pos": "Noun",
+   "sentenceJa": "今週は、あまり いそがしくないです。",
+   "sentenceEn": "I'm not so busy this week."
+  },
+  {
+   "id": "N4_1-144-22",
+   "num": "22",
+   "word": "今月",
+   "reading": "こんげつ",
+   "english": "this month",
+   "pos": "Noun",
+   "sentenceJa": "今月、大切な テストが 3つも あります。",
+   "sentenceEn": "I have three important tests this month."
+  },
+  {
+   "id": "N4_1-144-23",
+   "num": "23",
+   "word": "再来週",
+   "reading": "さらいしゅう",
+   "english": "the week after next",
+   "pos": "Noun",
+   "sentenceJa": "来週は いそがしいので、再来週 会いましょう。",
+   "sentenceEn": "I'm busy this week, so let's meet the week after next."
+  },
+  {
+   "id": "N4_1-144-24",
+   "num": "24",
+   "word": "再来月",
+   "reading": "さらいげつ",
+   "english": "the month after next",
+   "pos": "Noun",
+   "sentenceJa": "再来月から 1年間 ニューヨークへ 行きます。",
+   "sentenceEn": "I'm going to New York for a year starting from the month after next."
+  },
+  {
+   "id": "N4_1-144-25",
+   "num": "25",
+   "word": "再来年",
+   "reading": "さらいねん",
+   "english": "the year after next",
+   "pos": "Noun",
+   "sentenceJa": "再来年、この国で オリンピックが あります。",
+   "sentenceEn": "The year after next, the Olympics will be held in this country."
+  },
+  {
+   "id": "N4_1-144-26",
+   "num": "26",
+   "word": "おととし",
+   "reading": "おととし",
+   "english": "the year before last",
+   "pos": "Noun",
+   "sentenceJa": "日本へ 来たのは おととしの 4月です。",
+   "sentenceEn": "I came to Japan in April of the year before last."
+  },
+  {
+   "id": "N4_1-144-27",
+   "num": "27",
+   "word": "毎週",
+   "reading": "まいしゅう",
+   "english": "every week",
+   "pos": "Noun",
+   "sentenceJa": "毎週 土曜日は 友だちと テニスを して います。",
+   "sentenceEn": "I play tennis with my friend on Saturday every week."
+  },
+  {
+   "id": "N4_1-144-28",
+   "num": "28",
+   "word": "毎月",
+   "reading": "まいつき",
+   "english": "every month",
+   "pos": "Noun",
+   "sentenceJa": "毎月 二十日に アルバイト代が もらえます。",
+   "sentenceEn": "I get paid for my part-time job on the 20 of every month."
+  },
+  {
+   "id": "N4_1-144-29",
+   "num": "29",
+   "word": "毎年",
+   "reading": "まいとし/まいねん",
+   "english": "every year",
+   "pos": "Noun",
+   "sentenceJa": "毎年、クリスマスに 国へ 帰ります。",
+   "sentenceEn": "I return to my country on Christmas of every year."
+  },
+  {
+   "id": "N4_1-144-30",
+   "num": "30",
+   "word": "平日",
+   "reading": "へいじつ",
+   "english": "weekday",
+   "pos": "Noun",
+   "sentenceJa": "平日は 仕事が とても いそがしいです。",
+   "sentenceEn": "I'm very busy at work on weekdays."
+  },
+  {
+   "id": "N4_1-144-31",
+   "num": "31",
+   "word": "最初",
+   "reading": "さいしょ",
+   "english": "first",
+   "pos": "Noun",
+   "sentenceJa": "最初に 「あいうえお」を おぼえました。",
+   "sentenceEn": "I learned あいうえお first."
+  },
+  {
+   "id": "N4_1-144-32",
+   "num": "32",
+   "word": "最中",
+   "reading": "さいちゅう",
+   "english": "in the middle (of doing ~)",
+   "pos": "Noun",
+   "sentenceJa": "テストの 最中に 教室を 出ては いけません。",
+   "sentenceEn": "Do not leave the classroom during the test."
+  },
+  {
+   "id": "N4_1-144-33",
+   "num": "33",
+   "word": "最後",
+   "reading": "さいご",
+   "english": "last",
+   "pos": "Noun",
+   "sentenceJa": "この バスは 最後に 東京駅に 着きます。",
+   "sentenceEn": "This bus will arrive at Tokyo Station last."
+  },
+  {
+   "id": "N4_1-144-34",
+   "num": "34",
+   "word": "先に",
+   "reading": "さきに",
+   "english": "first, before, ahead of",
+   "pos": "Adverb",
+   "sentenceJa": "A 「お昼ごはんに 行きましょう。」 B 「私は まだ 仕事が あるので、先に 行って ください。」",
+   "sentenceEn": "A: Let's go eat lunch. B: I still have some work to do, so please go ahead of me."
+  },
+  {
+   "id": "N4_1-144-35",
+   "num": "35",
+   "word": "夫",
+   "reading": "おっと",
+   "english": "husband",
+   "pos": "Noun",
+   "sentenceJa": "夫は 毎日 おそくまで 仕事を しています。",
+   "sentenceEn": "My husband works late everyday."
+  },
+  {
+   "id": "N4_1-144-36",
+   "num": "36",
+   "word": "つま",
+   "reading": "つま",
+   "english": "wife",
+   "pos": "Noun",
+   "sentenceJa": "つまは カレーが 大好きです。",
+   "sentenceEn": "My wife loves curry."
+  },
+  {
+   "id": "N4_1-144-37",
+   "num": "37",
+   "word": "両親",
+   "reading": "りょうしん",
+   "english": "parents",
+   "pos": "Noun",
+   "sentenceJa": "両親は イギリスに 住んで います。",
+   "sentenceEn": "My parents live in England."
+  },
+  {
+   "id": "N4_1-144-38",
+   "num": "38",
+   "word": "むすこ",
+   "reading": "むすこ",
+   "english": "son",
+   "pos": "Noun",
+   "sentenceJa": "むすこは 小学校から サッカーを やって います。",
+   "sentenceEn": "My son has been playing soccer since elementary school."
+  },
+  {
+   "id": "N4_1-144-39",
+   "num": "39",
+   "word": "むすめ",
+   "reading": "むすめ",
+   "english": "daughter",
+   "pos": "Noun",
+   "sentenceJa": "むすめは 勉強より スポーツの ほうが 好きです。",
+   "sentenceEn": "My daughter likes sports more than studying."
+  },
+  {
+   "id": "N4_1-144-40",
+   "num": "40",
+   "word": "お子さん",
+   "reading": "おこさん",
+   "english": "child, children",
+   "pos": "Noun",
+   "sentenceJa": "先生の お子さんは 今 中学生ですか。",
+   "sentenceEn": "Is your child now a junior high school student?"
+  },
+  {
+   "id": "N4_1-144-41",
+   "num": "41",
+   "word": "祖父",
+   "reading": "そふ",
+   "english": "my grandfather",
+   "pos": "Noun",
+   "sentenceJa": "祖父は 小学校の 先生でした。",
+   "sentenceEn": "My grandfather was an elementary school teacher."
+  },
+  {
+   "id": "N4_1-144-42",
+   "num": "42",
+   "word": "祖母",
+   "reading": "そぼ",
+   "english": "my grandmother",
+   "pos": "Noun",
+   "sentenceJa": "私は 祖母が 大好きです。",
+   "sentenceEn": "I love my grandmother."
+  },
+  {
+   "id": "N4_1-144-43",
+   "num": "43",
+   "word": "まご",
+   "reading": "まご",
+   "english": "grandchild",
+   "pos": "Noun",
+   "sentenceJa": "祖父と 祖母には まごが 8人 います。",
+   "sentenceEn": "My grandfather and grandmother have eight grandchildren."
+  },
+  {
+   "id": "N4_1-144-44",
+   "num": "44",
+   "word": "おじ",
+   "reading": "おじ",
+   "english": "my uncle",
+   "pos": "Noun",
+   "sentenceJa": "この おじは 母の 弟です。",
+   "sentenceEn": "This uncle is my mother's younger brother."
+  },
+  {
+   "id": "N4_1-144-45",
+   "num": "45",
+   "word": "おば",
+   "reading": "おば",
+   "english": "my aunt",
+   "pos": "Noun",
+   "sentenceJa": "おばは とても 料理が 上手です。",
+   "sentenceEn": "My aunt is very good at cooking."
+  },
+  {
+   "id": "N4_1-144-46",
+   "num": "46",
+   "word": "親せき",
+   "reading": "しんせき",
+   "english": "relatives",
+   "pos": "Noun",
+   "sentenceJa": "姉の 結婚式に 親せきが たくさん 来ます。",
+   "sentenceEn": "Many of my relatives are going to attend my older sister's wedding."
+  },
+  {
+   "id": "N4_1-144-47",
+   "num": "47",
+   "word": "ペット",
+   "reading": "ペット",
+   "english": "pet",
+   "pos": "Noun",
+   "sentenceJa": "この アパートで ペットは 飼えません。",
+   "sentenceEn": "You cannot have any pets in this apartment."
+  },
+  {
+   "id": "N4_1-144-48",
+   "num": "48",
+   "word": "似る",
+   "reading": "にる",
+   "english": "to look similar to, to resemble",
+   "pos": "Verb",
+   "sentenceJa": "私は 母に、姉は 父に 似て います。",
+   "sentenceEn": "I look like my mother, and my older sister resembles my father."
+  },
+  {
+   "id": "N4_1-144-49",
+   "num": "49",
+   "word": "(心配を) かける",
+   "reading": "(しんぱいを) かける",
+   "english": "to make worry, to cause to worry",
+   "pos": "Verb",
+   "sentenceJa": "両親に 心配を かけては いけません。",
+   "sentenceEn": "You mustn't make your parents worry."
+  },
+  {
+   "id": "N4_1-144-50",
+   "num": "50",
+   "word": "しかる",
+   "reading": "しかる",
+   "english": "to scold",
+   "pos": "Verb",
+   "sentenceJa": "子どもの とき、母に よく しかられました。",
+   "sentenceEn": "I was often scolded by my mother when I was a child."
+  },
+  {
+   "id": "N4_1-144-51",
+   "num": "51",
+   "word": "ほめる",
+   "reading": "ほめる",
+   "english": "to praise",
+   "pos": "Verb",
+   "sentenceJa": "テストで 100点を とって、父に ほめられました。",
+   "sentenceEn": "I got a 100 on my test, and my father praised me."
+  },
+  {
+   "id": "N4_1-144-52",
+   "num": "52",
+   "word": "飼う",
+   "reading": "かう",
+   "english": "to own, to have",
+   "pos": "Verb",
+   "sentenceJa": "うさぎを 飼って みたいです。",
+   "sentenceEn": "I want to own a rabbit."
+  },
+  {
+   "id": "N4_1-144-53",
+   "num": "53",
+   "word": "アパート",
+   "reading": "アパート",
+   "english": "apartment",
+   "pos": "Noun",
+   "sentenceJa": "今のアパートは 前の ところより 広い です。",
+   "sentenceEn": "My current apartment is much more spacious than my old one."
+  },
+  {
+   "id": "N4_1-144-54",
+   "num": "54",
+   "word": "マンション",
+   "reading": "マンション",
+   "english": "condominium",
+   "pos": "Noun",
+   "sentenceJa": "うちの マンションは 駅から 歩いて 3分です。",
+   "sentenceEn": "My condominium is a three-minute walk from the station."
+  },
+  {
+   "id": "N4_1-144-55",
+   "num": "55",
+   "word": "家賃",
+   "reading": "やちん",
+   "english": "rent",
+   "pos": "Noun",
+   "sentenceJa": "来月から 家賃が 少し 高く なります。",
+   "sentenceEn": "Rent is going to be a little higher starting next month."
+  },
+  {
+   "id": "N4_1-144-56",
+   "num": "56",
+   "word": "管理人",
+   "reading": "かんりにん",
+   "english": "custodian",
+   "pos": "Noun",
+   "sentenceJa": "マンションには いつも 管理人さんが います。",
+   "sentenceEn": "There is always a custodian in my condominium building."
+  },
+  {
+   "id": "N4_1-144-57",
+   "num": "57",
+   "word": "住所",
+   "reading": "じゅうしょ",
+   "english": "address",
+   "pos": "Noun",
+   "sentenceJa": "田中さんの 住所を 知って いますか。",
+   "sentenceEn": "Do you know Tanaka-san's address?"
+  },
+  {
+   "id": "N4_1-144-58",
+   "num": "58",
+   "word": "建てる",
+   "reading": "たてる",
+   "english": "to build/to raise",
+   "pos": "Verb",
+   "sentenceJa": "しょうらい、大きい 家を 建てたいです。",
+   "sentenceEn": "In the future, I want to build a big house."
+  },
+  {
+   "id": "N4_1-144-59",
+   "num": "59",
+   "word": "建つ",
+   "reading": "たつ",
+   "english": "to be built",
+   "pos": "Verb",
+   "sentenceJa": "となりに 大きい ビルが 建ちました。",
+   "sentenceEn": "A big building was built next door."
+  },
+  {
+   "id": "N4_1-144-60",
+   "num": "60",
+   "word": "立てる",
+   "reading": "たてる",
+   "english": "to stand (something)",
+   "pos": "Verb",
+   "sentenceJa": "ドアの ところに かさを 立てて おきます。",
+   "sentenceEn": "I stood my umbrella by the door."
+  },
+  {
+   "id": "N4_1-144-61",
+   "num": "61",
+   "word": "立つ",
+   "reading": "たつ",
+   "english": "to stand (up)",
+   "pos": "Verb",
+   "sentenceJa": "家の 前に 大きい 木が 立って います。",
+   "sentenceEn": "There is a big tree standing in front of the house."
+  },
+  {
+   "id": "N4_1-144-62",
+   "num": "62",
+   "word": "ひっこし (する)",
+   "reading": "ひっこし (する)",
+   "english": "moving",
+   "pos": "Noun",
+   "sentenceJa": "明日は ひっこしです。",
+   "sentenceEn": "I'm moving tomorrow."
+  },
+  {
+   "id": "N4_1-144-63",
+   "num": "63",
+   "word": "うつす",
+   "reading": "うつす",
+   "english": "to move/to relocate (something)",
+   "pos": "Verb",
+   "sentenceJa": "となりの 部屋に テーブルを うつしました。",
+   "sentenceEn": "I moved the table to the room next door."
+  },
+  {
+   "id": "N4_1-144-64",
+   "num": "64",
+   "word": "うつる",
+   "reading": "うつる",
+   "english": "to move/to relocate",
+   "pos": "Verb",
+   "sentenceJa": "駅前の ビルに 郵便局が うつります。",
+   "sentenceEn": "The post office in the building in front of the station has moved."
+  },
+  {
+   "id": "N4_1-144-65",
+   "num": "65",
+   "word": "自宅",
+   "reading": "じたく",
+   "english": "one's home",
+   "pos": "Noun",
+   "sentenceJa": "これは 私の 自宅の 電話番号です。",
+   "sentenceEn": "This is my home number."
+  },
+  {
+   "id": "N4_1-144-66",
+   "num": "66",
+   "word": "お宅",
+   "reading": "おたく",
+   "english": "residence",
+   "pos": "Noun",
+   "sentenceJa": "先生の お宅は どちらですか。",
+   "sentenceEn": "Where is the teacher's residence?"
+  },
+  {
+   "id": "N4_1-144-67",
+   "num": "67",
+   "word": "訪問 (する)",
+   "reading": "ほうもん (する)",
+   "english": "visit",
+   "pos": "Noun",
+   "sentenceJa": "明日、友だちの 家を 訪問します。",
+   "sentenceEn": "Tomorrow, I am going to visit my friend's house."
+  },
+  {
+   "id": "N4_1-144-68",
+   "num": "68",
+   "word": "招待 (する)",
+   "reading": "しょうたい (する)",
+   "english": "invitation",
+   "pos": "Noun",
+   "sentenceJa": "今度の 週末、友だちを 家に 招待します。",
+   "sentenceEn": "I am going to invite my friend to my house this weekend."
+  },
+  {
+   "id": "N4_1-144-69",
+   "num": "69",
+   "word": "近所",
+   "reading": "きんじょ",
+   "english": "nearby area, neighborhood",
+   "pos": "Noun",
+   "sentenceJa": "近所に 有名人が 住んで います。",
+   "sentenceEn": "A famous person lives nearby here."
+  },
+  {
+   "id": "N4_1-144-70",
+   "num": "70",
+   "word": "周り",
+   "reading": "まわり",
+   "english": "around",
+   "pos": "Noun",
+   "sentenceJa": "家の 周りに さくらの 木が あります。",
+   "sentenceEn": "There are cherry blossoms around the house."
+  },
+  {
+   "id": "N4_1-144-71",
+   "num": "71",
+   "word": "げんかん",
+   "reading": "げんかん",
+   "english": "entranceway",
+   "pos": "Noun",
+   "sentenceJa": "げんかんに くつが たくさん あります。",
+   "sentenceEn": "There are many shoes in the entranceway."
+  },
+  {
+   "id": "N4_1-144-72",
+   "num": "72",
+   "word": "入り口 (入口)",
+   "reading": "いりぐち",
+   "english": "entrance",
+   "pos": "Noun",
+   "sentenceJa": "入り口で 部屋の 番号を 押して ください。",
+   "sentenceEn": "Please enter the room number at the entrance."
+  },
+  {
+   "id": "N4_1-144-73",
+   "num": "73",
+   "word": "(かぎを) かける",
+   "reading": "(かぎを) かける",
+   "english": "to lock (a door, etc.)",
+   "pos": "Verb",
+   "sentenceJa": "出かける ときは かぎを かけて ください。",
+   "sentenceEn": "Please lock the door when you go out."
+  },
+  {
+   "id": "N4_1-144-74",
+   "num": "74",
+   "word": "(かぎが) かかる",
+   "reading": "(かぎが) かかる",
+   "english": "to be locked",
+   "pos": "Verb",
+   "sentenceJa": "げんかんの ドアは かぎが かかって います。",
+   "sentenceEn": "The door in the entranceway is locked."
+  },
+  {
+   "id": "N4_1-144-75",
+   "num": "75",
+   "word": "かべ",
+   "reading": "かべ",
+   "english": "wall",
+   "pos": "Noun",
+   "sentenceJa": "部屋の かべを 明るく したいです。",
+   "sentenceEn": "I want to make the walls in the room brighter."
+  },
+  {
+   "id": "N4_1-144-76",
+   "num": "76",
+   "word": "ろう下",
+   "reading": "ろうか",
+   "english": "hallway",
+   "pos": "Noun",
+   "sentenceJa": "この ろう下の 右に トイレが あります。",
+   "sentenceEn": "There is a bathroom on the right in this hallway."
+  },
+  {
+   "id": "N4_1-144-77",
+   "num": "77",
+   "word": "台所",
+   "reading": "だいどころ",
+   "english": "kitchen",
+   "pos": "Noun",
+   "sentenceJa": "うちの 台所は 使いやすい です。",
+   "sentenceEn": "My kitchen is easy to use."
+  },
+  {
+   "id": "N4_1-144-78",
+   "num": "78",
+   "word": "水道",
+   "reading": "すいどう",
+   "english": "water supply, tap",
+   "pos": "Noun",
+   "sentenceJa": "水道の 水を 飲んでも だいじょうぶです。",
+   "sentenceEn": "You can drink the water from the tap."
+  },
+  {
+   "id": "N4_1-144-79",
+   "num": "79",
+   "word": "ガス",
+   "reading": "ガス",
+   "english": "gas",
+   "pos": "Noun",
+   "sentenceJa": "地震で ガスが 止まって しまいました。",
+   "sentenceEn": "The gas stopped due to an earthquake."
+  },
+  {
+   "id": "N4_1-144-80",
+   "num": "80",
+   "word": "和室",
+   "reading": "わしつ",
+   "english": "Japanese-style room",
+   "pos": "Noun",
+   "sentenceJa": "私は 和室が 好きです。",
+   "sentenceEn": "I like Japanese-style rooms."
+  },
+  {
+   "id": "N4_1-144-81",
+   "num": "81",
+   "word": "たたみ",
+   "reading": "たたみ",
+   "english": "tatami mat",
+   "pos": "Noun",
+   "sentenceJa": "たたみの 部屋が ある アパートに 住みたいです。",
+   "sentenceEn": "I want to live in an apartment that has tatami mats."
+  },
+  {
+   "id": "N4_1-144-82",
+   "num": "82",
+   "word": "押し入れ",
+   "reading": "おしいれ",
+   "english": "closet",
+   "pos": "Noun",
+   "sentenceJa": "部屋に 押し入れが あると、便利です。",
+   "sentenceEn": "Having closets in the room is convenient."
+  },
+  {
+   "id": "N4_1-144-83",
+   "num": "83",
+   "word": "ふとん",
+   "reading": "ふとん",
+   "english": "futon, bed mat",
+   "pos": "Noun",
+   "sentenceJa": "私は ベッドより ふとんの ほうが 好きです。",
+   "sentenceEn": "I prefer a futon to a bed."
+  },
+  {
+   "id": "N4_1-144-84",
+   "num": "84",
+   "word": "ガラス",
+   "reading": "ガラス",
+   "english": "glass",
+   "pos": "Noun",
+   "sentenceJa": "窓ガラスを きれいに しましょう。",
+   "sentenceEn": "Let's clean the window glass."
+  },
+  {
+   "id": "N4_1-144-85",
+   "num": "85",
+   "word": "カーテン",
+   "reading": "カーテン",
+   "english": "curtain",
+   "pos": "Noun",
+   "sentenceJa": "明るい 色の カーテンを 買います。",
+   "sentenceEn": "I'm going to buy brightly colored curtains."
+  },
+  {
+   "id": "N4_1-144-86",
+   "num": "86",
+   "word": "すみ",
+   "reading": "すみ",
+   "english": "corner, nook",
+   "pos": "Noun",
+   "sentenceJa": "部屋の すみに つくえを 置いて います。",
+   "sentenceEn": "There is a desk in the corner of the room."
+  },
+  {
+   "id": "N4_1-144-87",
+   "num": "87",
+   "word": "家具",
+   "reading": "かぐ",
+   "english": "furniture",
+   "pos": "Noun",
+   "sentenceJa": "私は 木の 家具が 好きです。",
+   "sentenceEn": "I like wooden furniture."
+  },
+  {
+   "id": "N4_1-144-88",
+   "num": "88",
+   "word": "たな",
+   "reading": "たな",
+   "english": "shelf",
+   "pos": "Noun",
+   "sentenceJa": "たなには DVDが 置いて あります。",
+   "sentenceEn": "There are DVDs on the shelf."
+  },
+  {
+   "id": "N4_1-144-89",
+   "num": "89",
+   "word": "組み立てる",
+   "reading": "くみたてる",
+   "english": "assemble",
+   "pos": "Verb",
+   "sentenceJa": "この ベッドは 自分で 組み立てて ください。",
+   "sentenceEn": "Please assemble this bed on your own."
+  },
+  {
+   "id": "N4_1-144-90",
+   "num": "90",
+   "word": "引き出し",
+   "reading": "ひきだし",
+   "english": "drawer",
+   "pos": "Noun",
+   "sentenceJa": "パスポートは つくえの 引き出しの 中に あります。",
+   "sentenceEn": "The passport is inside of the drawer in the desk."
+  },
+  {
+   "id": "N4_1-144-91",
+   "num": "91",
+   "word": "片づける",
+   "reading": "かたづける",
+   "english": "to clean up",
+   "pos": "Verb",
+   "sentenceJa": "友だちが 来るので、部屋を 片づけました。",
+   "sentenceEn": "My friend is coming, so I cleaned my room."
+  },
+  {
+   "id": "N4_1-144-92",
+   "num": "92",
+   "word": "片づく",
+   "reading": "かたづく",
+   "english": "to be cleaned up",
+   "pos": "Verb",
+   "sentenceJa": "いつも 部屋が 片づいて います。",
+   "sentenceEn": "The room is always neat and clean."
+  },
+  {
+   "id": "N4_1-144-93",
+   "num": "93",
+   "word": "整理 (する)",
+   "reading": "せいり (する)",
+   "english": "organization",
+   "pos": "Noun",
+   "sentenceJa": "つくえの 上を きれいに 整理して ください。",
+   "sentenceEn": "Please clean and organize the top of the desk."
+  },
+  {
+   "id": "N4_1-144-94",
+   "num": "94",
+   "word": "動かす",
+   "reading": "うごかす",
+   "english": "to move, to make move",
+   "pos": "Verb",
+   "sentenceJa": "みんなで 大きい テーブルを 動かします。",
+   "sentenceEn": "Everyone moved the big table together."
+  },
+  {
+   "id": "N4_1-144-95",
+   "num": "95",
+   "word": "動く",
+   "reading": "うごく",
+   "english": "to move",
+   "pos": "Verb",
+   "sentenceJa": "エレベーターが 動いて います。",
+   "sentenceEn": "The elevator is moving."
+  },
+  {
+   "id": "N4_1-144-96",
+   "num": "96",
+   "word": "花びん",
+   "reading": "はなびん",
+   "english": "flower vase",
+   "pos": "Noun",
+   "sentenceJa": "家には 小さい 花びんしか ありません。",
+   "sentenceEn": "I only have a small flower vase at home."
+  },
+  {
+   "id": "N4_1-144-97",
+   "num": "97",
+   "word": "カレンダー",
+   "reading": "カレンダー",
+   "english": "calendar",
+   "pos": "Noun",
+   "sentenceJa": "かわいい 猫の カレンダーを 買いました。",
+   "sentenceEn": "I bought a cute cat calendar."
+  },
+  {
+   "id": "N4_1-144-98",
+   "num": "98",
+   "word": "ポスター",
+   "reading": "ポスター",
+   "english": "poster",
+   "pos": "Noun",
+   "sentenceJa": "犬の ポスターが ほしいです。",
+   "sentenceEn": "I want a poster of a dog."
+  },
+  {
+   "id": "N4_1-144-99",
+   "num": "99",
+   "word": "かざる",
+   "reading": "かざる",
+   "english": "to decorate",
+   "pos": "Verb",
+   "sentenceJa": "げんかんに 花を かざりたいです。",
+   "sentenceEn": "I want to decorate the entranceway with flowers."
+  },
+  {
+   "id": "N4_1-144-100",
+   "num": "100",
+   "word": "はる",
+   "reading": "はる",
+   "english": "to post",
+   "pos": "Verb",
+   "sentenceJa": "れいぞう庫に メモを はって います。",
+   "sentenceEn": "There is a memo posted on the refrigerator."
+  },
+  {
+   "id": "N4_1-144-101",
+   "num": "101",
+   "word": "(絵を) かける",
+   "reading": "(えを) かける",
+   "english": "to put/hang up (a picture)",
+   "pos": "Verb",
+   "sentenceJa": "げんかんに きれいな 絵を かけました。",
+   "sentenceEn": "I put up a pretty picture in the entranceway."
+  },
+  {
+   "id": "N4_1-144-102",
+   "num": "102",
+   "word": "(カレンダーが) かかる",
+   "reading": "(カレンダーが) かかる",
+   "english": "to hang/to be hung (a calendar)",
+   "pos": "Verb",
+   "sentenceJa": "きれいな カレンダーが かかって いますね。",
+   "sentenceEn": "You have a lovely calendar hanging up."
+  },
+  {
+   "id": "N4_1-144-103",
+   "num": "103",
+   "word": "(いすに) かける",
+   "reading": "(いすに) かける",
+   "english": "to sit (in a chair)",
+   "pos": "Verb",
+   "sentenceJa": "この いすに かけても いいですか。",
+   "sentenceEn": "May I sit down in this chair?"
+  },
+  {
+   "id": "N4_1-144-104",
+   "num": "104",
+   "word": "暖房",
+   "reading": "だんぼう",
+   "english": "heater",
+   "pos": "Noun",
+   "sentenceJa": "今日は 寒いので、暖房を つけましょう。",
+   "sentenceEn": "It's cold today, so let's turn on the heater."
+  },
+  {
+   "id": "N4_1-144-105",
+   "num": "105",
+   "word": "上げる",
+   "reading": "あげる",
+   "english": "to raise/to increase",
+   "pos": "Verb",
+   "sentenceJa": "ちょっと エアコンの 温度を 上げて ください。",
+   "sentenceEn": "Please increase the temperature of the air conditioner."
+  },
+  {
+   "id": "N4_1-144-106",
+   "num": "106",
+   "word": "電源",
+   "reading": "でんげん",
+   "english": "(electrical) power outlet",
+   "pos": "Noun",
+   "sentenceJa": "この 部屋は 電源が 少なくて、不便です。",
+   "sentenceEn": "It is inconvenient that there are only a few power outlets in this room."
+  },
+  {
+   "id": "N4_1-144-107",
+   "num": "107",
+   "word": "(電気を) つける",
+   "reading": "(でんきを) つける",
+   "english": "to turn on (a light)",
+   "pos": "Verb",
+   "sentenceJa": "部屋が 暗いので、電気を つけましょう。",
+   "sentenceEn": "The room is dark, so let's turn on the light."
+  },
+  {
+   "id": "N4_1-144-108",
+   "num": "108",
+   "word": "(テレビが) つく",
+   "reading": "(テレビが) つく",
+   "english": "to be on (the TV)",
+   "pos": "Verb",
+   "sentenceJa": "ここを 押すと、テレビが つきます。",
+   "sentenceEn": "If you push this here, the TV will turn on."
+  },
+  {
+   "id": "N4_1-144-109",
+   "num": "109",
+   "word": "消す",
+   "reading": "けす",
+   "english": "to turn off",
+   "pos": "Verb",
+   "sentenceJa": "教室を 出るときは 電気を 消して ください。",
+   "sentenceEn": "When you leave the classroom, please turn off the lights."
+  },
+  {
+   "id": "N4_1-144-110",
+   "num": "110",
+   "word": "消える",
+   "reading": "きえる",
+   "english": "to be turned off",
+   "pos": "Verb",
+   "sentenceJa": "電気が 消えているので、田中さんは 部屋に いないでしょう。",
+   "sentenceEn": "The light is off, so Tanaka-san must not be in the room."
+  },
+  {
+   "id": "N4_1-144-111",
+   "num": "111",
+   "word": "起きる",
+   "reading": "おきる",
+   "english": "to get up/to wake up",
+   "pos": "Verb",
+   "sentenceJa": "休みの 日は お昼ごろ 起きます。",
+   "sentenceEn": "I wake up around lunchtime on my days off."
+  },
+  {
+   "id": "N4_1-144-112",
+   "num": "112",
+   "word": "起こす",
+   "reading": "おこす",
+   "english": "to make get up/to wake (someone) up",
+   "pos": "Verb",
+   "sentenceJa": "毎朝、母が 私を 起こして くれます。",
+   "sentenceEn": "My mother wakes me up every morning."
+  },
+  {
+   "id": "N4_1-144-113",
+   "num": "113",
+   "word": "早起き (する)",
+   "reading": "はやおき (する)",
+   "english": "waking up early",
+   "pos": "Noun",
+   "sentenceJa": "毎日、早起きして います。",
+   "sentenceEn": "Every morning, I wake up early."
+  },
+  {
+   "id": "N4_1-144-114",
+   "num": "114",
+   "word": "ねぼう (する)",
+   "reading": "ねぼう (する)",
+   "english": "sleeping in",
+   "pos": "Noun",
+   "sentenceJa": "お酒を 飲みすぎて、ねぼうしました。",
+   "sentenceEn": "I drank too much alcohol and slept in."
+  },
+  {
+   "id": "N4_1-144-115",
+   "num": "115",
+   "word": "みがく",
+   "reading": "みがく",
+   "english": "to brush/to polish",
+   "pos": "Verb",
+   "sentenceJa": "1日 3回、歯を みがきしょう。",
+   "sentenceEn": "I brush my teeth three times a day."
+  },
+  {
+   "id": "N4_1-144-116",
+   "num": "116",
+   "word": "ケータイ",
+   "reading": "ケータイ",
+   "english": "cell phone",
+   "pos": "Noun",
+   "sentenceJa": "朝、ケータイを バッグに 入れます。",
+   "sentenceEn": "In the morning, I put my cell phone in the bag."
+  },
+  {
+   "id": "N4_1-144-117",
+   "num": "117",
+   "word": "鳴る",
+   "reading": "なる",
+   "english": "to ring/to beep",
+   "pos": "Verb",
+   "sentenceJa": "ケータイが 大きな 音で 鳴って います。",
+   "sentenceEn": "The cell phone is ringing loudly."
+  },
+  {
+   "id": "N4_1-144-118",
+   "num": "118",
+   "word": "ごみ",
+   "reading": "ごみ",
+   "english": "trash",
+   "pos": "Noun",
+   "sentenceJa": "ごみは ごみ箱に 入れましょう。",
+   "sentenceEn": "Let's put the trash in the trash can."
+  },
+  {
+   "id": "N4_1-144-119",
+   "num": "119",
+   "word": "びん",
+   "reading": "びん",
+   "english": "bottle",
+   "pos": "Noun",
+   "sentenceJa": "この びんに 何が 入っていますか。",
+   "sentenceEn": "What's in this bottle?"
+  },
+  {
+   "id": "N4_1-144-120",
+   "num": "120",
+   "word": "カン",
+   "reading": "カン",
+   "english": "can",
+   "pos": "Noun",
+   "sentenceJa": "カンは 月曜日に 出して ください。",
+   "sentenceEn": "Please take out the cans on Monday."
+  },
+  {
+   "id": "N4_1-144-121",
+   "num": "121",
+   "word": "ペットボトル",
+   "reading": "ペットボトル",
+   "english": "plastic bottle",
+   "pos": "Noun",
+   "sentenceJa": "いつも お茶の ペットボトルを 持っています。",
+   "sentenceEn": "I always have a plastic bottle of tea."
+  },
+  {
+   "id": "N4_1-144-122",
+   "num": "122",
+   "word": "リサイクル",
+   "reading": "リサイクル",
+   "english": "recycle",
+   "pos": "Noun",
+   "sentenceJa": "コートを リサイクルに 出しました。",
+   "sentenceEn": "I recycled my coat."
+  },
+  {
+   "id": "N4_1-144-123",
+   "num": "123",
+   "word": "出す",
+   "reading": "だす",
+   "english": "to put out, to take out",
+   "pos": "Verb",
+   "sentenceJa": "今朝、ごみを 出すのを わすれました。",
+   "sentenceEn": "I forgot to take out the trash this morning."
+  },
+  {
+   "id": "N4_1-144-124",
+   "num": "124",
+   "word": "出る",
+   "reading": "でる",
+   "english": "to go out, to come out, to be out",
+   "pos": "Verb",
+   "sentenceJa": "10時に バスが 出ます。",
+   "sentenceEn": "The bus will come at 10:00."
+  },
+  {
+   "id": "N4_1-144-125",
+   "num": "125",
+   "word": "もえる",
+   "reading": "もえる",
+   "english": "to burn, to combust",
+   "pos": "Verb",
+   "sentenceJa": "火曜日と 金曜日は もえる ごみの 日です。",
+   "sentenceEn": "Combustible trash is collected on Mondays and Fridays."
+  },
+  {
+   "id": "N4_1-144-126",
+   "num": "126",
+   "word": "せっけん",
+   "reading": "せっけん",
+   "english": "soap",
+   "pos": "Noun",
+   "sentenceJa": "せっけんで 手を 洗いましょう。",
+   "sentenceEn": "Be sure to wash your hands with soap."
+  },
+  {
+   "id": "N4_1-144-127",
+   "num": "127",
+   "word": "シャンプー (する)",
+   "reading": "シャンプー (する)",
+   "english": "shampoo",
+   "pos": "Noun",
+   "sentenceJa": "この シャンプーは とても 安いです。",
+   "sentenceEn": "This shampoo is very inexpensive."
+  },
+  {
+   "id": "N4_1-144-128",
+   "num": "128",
+   "word": "せんたく機",
+   "reading": "せんたくき",
+   "english": "laundry machine",
+   "pos": "Noun",
+   "sentenceJa": "うちの せんたく機は 音が うるさいです。",
+   "sentenceEn": "My washing machine makes a lot of noise."
+  },
+  {
+   "id": "N4_1-144-129",
+   "num": "129",
+   "word": "せんたく物",
+   "reading": "せんたくもの",
+   "english": "laundry",
+   "pos": "Noun",
+   "sentenceJa": "せんたく物を 片づけてから 出かけます。",
+   "sentenceEn": "I'm going out after I do my laundry."
+  },
+  {
+   "id": "N4_1-144-130",
+   "num": "130",
+   "word": "クリーニング",
+   "reading": "クリーニング",
+   "english": "dry cleaner's",
+   "pos": "Noun",
+   "sentenceJa": "スーツを クリーニングに 出します。",
+   "sentenceEn": "I took my suit to the dry cleaner's."
+  },
+  {
+   "id": "N4_1-144-131",
+   "num": "131",
+   "word": "タオル",
+   "reading": "タオル",
+   "english": "towel",
+   "pos": "Noun",
+   "sentenceJa": "トイレで ピンクの タオルを 使っています。",
+   "sentenceEn": "In the bathroom, I use the pink towel."
+  },
+  {
+   "id": "N4_1-144-132",
+   "num": "132",
+   "word": "かわかす",
+   "reading": "かわかす",
+   "english": "to dry, to make dry",
+   "pos": "Verb",
+   "sentenceJa": "げんかんに かさを かわかして います。",
+   "sentenceEn": "I'm drying out my umbrella by the entranceway."
+  },
+  {
+   "id": "N4_1-144-133",
+   "num": "133",
+   "word": "(タオルが) かわく",
+   "reading": "(タオルが) かわく",
+   "english": "to become dry",
+   "pos": "Verb",
+   "sentenceJa": "天気が いいので、もう タオルが かわきました。",
+   "sentenceEn": "The weather is nice, so my towel dried already."
+  },
+  {
+   "id": "N4_1-144-134",
+   "num": "134",
+   "word": "えさ",
+   "reading": "えさ",
+   "english": "feed, (pet) food",
+   "pos": "Noun",
+   "sentenceJa": "毎日、弟が 犬に えさを やって います。",
+   "sentenceEn": "My younger brother gives the dog food everyday."
+  },
+  {
+   "id": "N4_1-144-135",
+   "num": "135",
+   "word": "世話 (する)",
+   "reading": "せわ (する)",
+   "english": "looking after, taking care of",
+   "pos": "Noun",
+   "sentenceJa": "犬を 世話するのは とても 楽しいです。",
+   "sentenceEn": "Taking care of a dog is really fun."
+  },
+  {
+   "id": "N4_1-144-136",
+   "num": "136",
+   "word": "るす",
+   "reading": "るす",
+   "english": "being away from home",
+   "pos": "Noun",
+   "sentenceJa": "平日の 昼間は るすが 多いです。",
+   "sentenceEn": "I'm often out of the house during weekdays."
+  },
+  {
+   "id": "N4_1-144-137",
+   "num": "137",
+   "word": "宅配便",
+   "reading": "たくはいびん",
+   "english": "express home delivery service",
+   "pos": "Noun",
+   "sentenceJa": "るすの 間に 宅配便が 来たようです。",
+   "sentenceEn": "It seems that a delivery came for me while I was out of the house."
+  },
+  {
+   "id": "N4_1-144-138",
+   "num": "138",
+   "word": "とどく",
+   "reading": "とどく",
+   "english": "to arrive, to be delivered",
+   "pos": "Verb",
+   "sentenceJa": "国から 手紙が とどきました。",
+   "sentenceEn": "A letter arrived from my country."
+  },
+  {
+   "id": "N4_1-144-139",
+   "num": "139",
+   "word": "とどける",
+   "reading": "とどける",
+   "english": "to send, to deliver",
+   "pos": "Verb",
+   "sentenceJa": "荷物を とどけて もらいました。",
+   "sentenceEn": "I had my baggage delivered."
+  },
+  {
+   "id": "N4_1-144-140",
+   "num": "140",
+   "word": "日記",
+   "reading": "にっき",
+   "english": "diary",
+   "pos": "Noun",
+   "sentenceJa": "小学生の ときから 日記を つけて います。",
+   "sentenceEn": "I've been writing a diary since I was an elementary school student."
+  },
+  {
+   "id": "N4_1-144-141",
+   "num": "141",
+   "word": "ねむる",
+   "reading": "ねむる",
+   "english": "to sleep",
+   "pos": "Verb",
+   "sentenceJa": "たくさん 運動すると、よく ねむれます。",
+   "sentenceEn": "If you exercise a lot, you will be able to sleep well."
+  },
+  {
+   "id": "N4_1-144-142",
+   "num": "142",
+   "word": "生活 (する)",
+   "reading": "せいかつ (する)",
+   "english": "life, lifestyle",
+   "pos": "Noun",
+   "sentenceJa": "日本の 生活は たいへんですが、とても 楽しいです。",
+   "sentenceEn": "Live in Japan is hard but also really fun."
+  },
+  {
+   "id": "N4_1-144-143",
+   "num": "143",
+   "word": "暮らす",
+   "reading": "くらす",
+   "english": "to live",
+   "pos": "Verb",
+   "sentenceJa": "ずっと 日本で 暮らしたいと 思っています。",
+   "sentenceEn": "I would like to live in Japan my whole life."
+  },
+  {
+   "id": "N4_1-144-144",
+   "num": "144",
+   "word": "習慣",
+   "reading": "しゅうかん",
+   "english": "habit",
+   "pos": "Noun",
+   "sentenceJa": "毎朝、りんごジュースを 飲むのが 習慣です。",
+   "sentenceEn": "I have a habit of drinking apple juice every morning."
+  }
+ ]
+}
