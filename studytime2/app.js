@@ -11,14 +11,14 @@ let state = loadState();   // {decks:{deckId:{cards:{id:{introduced,je:{},ej:{}}
 let session = null;
 
 /* ---------- storage ---------- */
-const freshDir = t => ({ learning: true, ease: 2.5, ivl: 0, due: t, reps: 0, lapses: 0 });
+function freshDir(t) { return { learning: true, ease: 2.5, ivl: 0, due: t, reps: 0, lapses: 0 }; }
 function loadState() {
   let s = null;
   try { s = JSON.parse(localStorage.getItem(STORE_KEY)); } catch (e) {}
   if (!s || !s.decks) return { decks: {}, selected: 'all' };
   // migrate older saves (single-direction cards) to two directions
   const t = today();
-  for (const d of Object.values(s.decks)) for (const c of Object.values(d.cards || {})) {
+  for (const d of Object.values(s.decks)) for (const c of Object.values(d.cards |a| {})) {
     if (!c.je) {
       const { learning, ease, ivl, due, reps, lapses } = c;
       c.je = { learning: !!learning, ease: ease || 2.5, ivl: ivl || 0, due: due ?? t, reps: reps || 0, lapses: lapses || 0 };
